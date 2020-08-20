@@ -347,7 +347,7 @@ ul {
     .medium-spacing {
       margin-bottom: 70px; } }
 .small-spacing {
-  margin-bottom: 20px; }
+  margin-bottom: 25px; }
   @media (min-width: 768px) {
     .small-spacing {
       margin-bottom: 30px; } }
@@ -362,7 +362,7 @@ ul {
 .grid-container {
   display: grid;
   grid-template-areas: ". container .";
-  grid-template-columns: 10px auto 10px; }
+  grid-template-columns: 15px auto 15px; }
   @media (min-width: 768px) {
     .grid-container {
       grid-template-columns: 25px auto 25px; } }
@@ -401,7 +401,7 @@ p {
   font-size: 40px;
   font-weight: 800;
   line-height: 49px;
-  margin: 30px 0px 20px 0px; }
+  margin: 30px 0px 25px 0px; }
   @media (min-width: 768px) {
     .headline {
       font-size: 50px;
@@ -456,7 +456,7 @@ p {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 600;
-  padding: 20px 0px 10px 0px; }
+  padding: 25px 0px 10px 0px; }
   @media (min-width: 768px) {
     .card-title {
       font-size: 20px;
@@ -546,5 +546,91 @@ textarea {
     Footer
 ============= */
 /* =============
-    Section 1
+    Index
 ============= */
+#index > div img {
+  height: 40vh;
+  object-fit: cover;
+  object-position: -50px 0px;
+  width: 100%; }
+  @media (min-width: 768px) {
+    #index > div img {
+      object-position: center;
+      height: 50vh; } }
+  @media (min-width: 1200px) {
+    #index > div img {
+      height: 90vh; } }
+#index > div #introduction > div h3 {
+  background-color: #FCD958;
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px; }
+  @media (min-width: 1200px) {
+    #index > div #introduction > div h3 {
+      border-radius: 33.5px;
+      padding: 28px 20px 56px 20px; } }
+#index > div #introduction > div p {
+  text-align: justify;
+  padding: 0px 20px; }
+
+@media (min-width: 768px) {
+  #index > div #introduction > div .text-shift {
+    text-align: end; } }
+
+#index > div #personality > div #personality-intro h2 {
+  text-align: center; }
+
+#index > div #personality > div #personality-intro h4 {
+  text-align: center;
+  font-size: 18px; }
+  @media (min-width: 768px) {
+    #index > div #personality > div #personality-intro h4 {
+      font-size: 20px; } }
+  @media (min-width: 1200px) {
+    #index > div #personality > div #personality-intro h4 {
+      font-size: 25px; } }
+@media (min-width: 768px) {
+  #index > div #personality > div #cards-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "c1 c1 c2 c2" ". c3 c3 .";
+    column-gap: 20px; } }
+
+@media (min-width: 768px) {
+  #index > div #personality > div #cards-section #card-1 {
+    grid-area: c1; } }
+
+@media (min-width: 768px) {
+  #index > div #personality > div #cards-section #card-2 {
+    grid-area: c2; } }
+
+@media (min-width: 768px) {
+  #index > div #personality > div #cards-section #card-3 {
+    grid-area: c3; } }
+
+#index > div #personality > div .cards {
+  background-color: #F2E2D8;
+  border-radius: 20px;
+  padding: 25px 25px; }
+  #index > div #personality > div .cards img {
+    height: 25vh;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    border-radius: 10px; }
+    @media (min-width: 768px) {
+      #index > div #personality > div .cards img {
+        height: 20vh; } }
+    @media (min-width: 1200px) {
+      #index > div #personality > div .cards img {
+        height: 50vh; } }
+  #index > div #personality > div .cards h3 {
+    text-align: center; }
+  #index > div #personality > div .cards p {
+    text-align: justify; }
+  @media (min-width: 768px) {
+    #index > div #personality > div .cards {
+      padding: 30px 35px; } }
+  @media (min-width: 1200px) {
+    #index > div #personality > div .cards {
+      border-radius: 20px;
+      padding: 45px 35px; } }

@@ -45,7 +45,7 @@ ul {
 }
 
 .small-spacing {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 
     @include md {
         margin-bottom: 30px;
@@ -67,7 +67,7 @@ ul {
 .grid-container {
     display: grid;
     grid-template-areas: ". container .";
-    grid-template-columns: 10px auto 10px;
+    grid-template-columns: 15px auto 15px;
 
     @include md {
         grid-template-columns: 25px auto 25px;

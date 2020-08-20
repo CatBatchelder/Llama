@@ -1,4 +1,168 @@
 /* =============
-    Section 1
+    Index
 ============= */
 
+#index{
+    >div{
+        img{
+            height: 40vh;
+            object-fit: cover;
+            object-position: -50px 0px;
+            width: 100%;
+            
+            @include md{
+                object-position: center;
+                height: 50vh;
+            }
+
+            @include lg{
+                height: 90vh;
+            }
+        }
+
+        #introduction{
+
+            // @include md{
+            //     display: grid;
+            //     grid-template-areas: "msg-1 msg-2 .";
+            //     grid-template-columns: repeat(3,1fr);
+            // }
+
+            >div{
+
+                h3{
+                    background-color: $yellow;
+                    border-radius: 20px;
+                    padding: 20px 20px 20px 20px;
+                    
+                    @include lg{
+                        border-radius: 33.5px;
+                        padding: 28px 20px 56px 20px;
+                    }
+
+                }
+
+                p{
+                    text-align: justify;
+                    padding: 0px 20px;
+                    
+                }
+                
+                .text-shift{
+                    @include md{
+                        text-align: end;
+                    }
+                }
+
+                // .logo-1{
+                //     @include md{
+                //         grid-area: msg-1;
+                //     }
+                // }
+
+                // .s1{
+                //     @include md{
+                //         grid-area: msg-2;
+                //     }
+                // }
+
+                
+                
+
+            }
+        }
+
+        #personality{
+
+            >div{
+
+                #personality-intro{
+                    h2{
+                        text-align: center;
+                    }
+    
+                    h4{
+                        text-align: center;
+                        font-size: 18px;
+    
+                        @include md{
+                            font-size: 20px;
+                        }
+    
+                        @include lg{
+                            font-size: 25px;
+                        }
+                    }
+                }
+
+                #cards-section{
+                    @include md{
+                        display: grid;
+                        grid-template-columns: repeat(4,1fr);
+                        grid-template-areas: "c1 c1 c2 c2" ". c3 c3 .";
+                        column-gap: 20px;
+                    }
+
+                    #card-1{
+                        @include md{
+                            grid-area: c1;
+                        }
+                    }
+                    #card-2{
+                        @include md{
+                            grid-area: c2;
+                        }
+                    }
+                    #card-3{
+                        @include md{
+                            grid-area: c3;
+                        }
+                    }
+                }
+                
+                .cards{
+
+                    img{
+                        height: 25vh;
+                        object-fit: cover;
+                        object-position: center;
+                        width: 100%;
+                        border-radius: 10px;
+                        
+                        @include md{
+                            height: 20vh;
+                        }
+            
+                        @include lg{
+                            height: 50vh;
+                        }
+                    }
+
+
+                    h3{
+                        text-align: center;
+                    }
+                    p{
+                        text-align: justify;
+                    }
+
+                    background-color: $cream;
+                    border-radius: 20px;
+                    padding: 25px 25px;
+
+                    @include md{
+                        padding: 30px 35px;
+                    }
+                    
+                    @include lg{
+                        border-radius: 20px;
+                        padding: 45px 35px;
+                    }
+                }          
+        
+            }
+        }
+
+
+    }
+}
