@@ -35,6 +35,72 @@
 		"oAP": "/deploy/gallery.html",
 		"oF": 0
 		},
+	"/deploy/img/care/care.jpg": {
+		"ft": 16384,
+		"iS": 429019,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/care/care.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/footer.jpg": {
+		"ft": 16384,
+		"iS": 775313,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/footer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/home/card-1.jpg": {
+		"ft": 16384,
+		"iS": 388637,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/home/card-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/home/card-2.jpg": {
+		"ft": 16384,
+		"iS": 390021,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/home/card-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/home/card-3.jpg": {
+		"ft": 16384,
+		"iS": 161383,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/home/card-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/home/main-hero.jpg": {
+		"ft": 16384,
+		"iS": 310734,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/home/main-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
