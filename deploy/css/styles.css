@@ -440,6 +440,17 @@ p {
   @media (min-width: 1200px) {
     .section-title {
       font-size: 45px; } }
+.msg-title {
+  color: #6D4E35;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 600; }
+  @media (min-width: 768px) {
+    .msg-title {
+      font-size: 20px; } }
+  @media (min-width: 1200px) {
+    .msg-title {
+      font-size: 25px; } }
 .card-title {
   color: #6D4E35;
   font-family: 'Raleway', sans-serif;

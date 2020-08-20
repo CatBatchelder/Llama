@@ -74,6 +74,22 @@ p{
     }
 }
 
+.msg-title{
+    color: $dark-brown;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    @include md{
+        font-size: 20px;
+    }
+
+    @include lg{
+        font-size: 25px;
+    }
+}
+
+
 .card-title{
     color: $dark-brown;
     font-family: 'Raleway', sans-serif;
