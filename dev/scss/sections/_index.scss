@@ -1,168 +1,215 @@
 /* =============
     Index
 ============= */
-
-#index{
-    >div{
-        img{
+#index {
+    >div {
+        img {
             height: 40vh;
             object-fit: cover;
             object-position: -50px 0px;
             width: 100%;
-            
-            @include md{
-                object-position: center;
+
+            @include md {
                 height: 50vh;
+                object-position: center;
             }
 
-            @include lg{
+            @include lg {
                 height: 90vh;
             }
         }
 
-        #introduction{
+        #introduction {
+            img {
+                height: 80px;
+                object-fit: contain;
+                object-position: center;
+                width: 80px;
 
-            // @include md{
-            //     display: grid;
-            //     grid-template-areas: "msg-1 msg-2 .";
-            //     grid-template-columns: repeat(3,1fr);
-            // }
+                @include md {
+                    height: 120px;
+                    width: 120px;
+                }
 
-            >div{
+                @include lg {
+                    height: 135px;
+                    width: 135px;
+                }
+            }
 
-                h3{
+            >div {
+                h3 {
                     background-color: $yellow;
                     border-radius: 20px;
-                    padding: 20px 20px 20px 20px;
-                    
-                    @include lg{
+                    padding: 20px 20px;
+
+                    @include lg {
                         border-radius: 33.5px;
-                        padding: 28px 20px 56px 20px;
+                        padding: 28px 20px;
                     }
-
                 }
 
-                p{
-                    text-align: justify;
+                p {
                     padding: 0px 20px;
-                    
+                    text-align: justify;
                 }
-                
-                .text-shift{
-                    @include md{
+
+                .text-shift {
+                    @include md {
                         text-align: end;
                     }
                 }
 
-                // .logo-1{
-                //     @include md{
-                //         grid-area: msg-1;
-                //     }
-                // }
+                #home-part-1,
+                #home-part-3 {
 
-                // .s1{
-                //     @include md{
-                //         grid-area: msg-2;
-                //     }
-                // }
+                    @include md {
+                        column-gap: 20px;
+                        display: grid;
+                        grid-template-areas: "logo msg";
+                        grid-template-columns: 120px 300px;
+                    }
 
-                
-                
+                    @include lg{
+                        grid-template-columns: 135px 390px;
+                    }
 
+                    img {
+                        @include md{
+                            grid-area: logo;
+                        }
+                    }
+
+                    article {
+                        @include md{
+                            grid-area: msg;
+                        } 
+                    }
+                }
+
+                #home-part-2,
+                #home-part-4 {
+                    
+                    @include md {
+                        column-gap: 20px;
+                        display: grid;
+                        grid-template-areas: "msg logo";
+                        grid-template-columns: 300px 120px;
+                        place-content: end;
+                    }
+
+                    @include lg{
+                        grid-template-columns: 390px 135px;
+                    }
+
+                    img {
+                        @include md{
+                            grid-area: logo;
+                        }
+                    }
+
+                    article {
+                        @include md{
+                            grid-area: msg;
+                        } 
+                    }
+                }
             }
         }
 
-        #personality{
+        #personality {
+            >div {
 
-            >div{
-
-                #personality-intro{
-                    h2{
+                #personality-intro {
+                    h2 {
                         text-align: center;
                     }
-    
-                    h4{
-                        text-align: center;
+
+                    h4 {
                         font-size: 18px;
-    
-                        @include md{
+                        text-align: center;
+
+                        @include md {
                             font-size: 20px;
                         }
-    
-                        @include lg{
+
+                        @include lg {
                             font-size: 25px;
                         }
                     }
                 }
 
-                #cards-section{
-                    @include md{
-                        display: grid;
-                        grid-template-columns: repeat(4,1fr);
-                        grid-template-areas: "c1 c1 c2 c2" ". c3 c3 .";
+                #cards-section {
+                    @include md {
                         column-gap: 20px;
+                        display: grid;
+                        grid-template-areas: "c1 c1 c2 c2"". c3 c3 .";
+                        grid-template-columns: repeat(4, 1fr);
                     }
 
-                    #card-1{
-                        @include md{
+                    @include lg{
+                        grid-template-areas: "c1 c2 c3";
+                        grid-template-columns: repeat(3, 1fr);
+                    }
+
+                    #card-1 {
+                        @include md {
                             grid-area: c1;
                         }
                     }
-                    #card-2{
-                        @include md{
+
+                    #card-2 {
+                        @include md {
                             grid-area: c2;
                         }
                     }
-                    #card-3{
-                        @include md{
+
+                    #card-3 {
+                        @include md {
                             grid-area: c3;
                         }
                     }
                 }
-                
-                .cards{
 
-                    img{
-                        height: 25vh;
-                        object-fit: cover;
-                        object-position: center;
-                        width: 100%;
-                        border-radius: 10px;
-                        
-                        @include md{
-                            height: 20vh;
-                        }
-            
-                        @include lg{
-                            height: 50vh;
-                        }
-                    }
-
-
-                    h3{
-                        text-align: center;
-                    }
-                    p{
-                        text-align: justify;
-                    }
-
+                .cards {
                     background-color: $cream;
                     border-radius: 20px;
                     padding: 25px 25px;
 
-                    @include md{
+                    img {
+                        border-radius: 10px;
+                        height: 25vh;
+                        object-fit: cover;
+                        object-position: center;
+                        width: 100%;
+
+                        @include md {
+                            height: 20vh;
+                        }
+
+                        @include lg {
+                            height: 30vh;
+                        }
+                    }
+
+                    h3 {
+                        text-align: center;
+                    }
+
+                    p {
+                        text-align: justify;
+                    }
+
+                    @include md {
                         padding: 30px 35px;
                     }
-                    
-                    @include lg{
+
+                    @include lg {
                         border-radius: 20px;
                         padding: 45px 35px;
                     }
-                }          
-        
+                }
             }
         }
-
-
     }
 }
