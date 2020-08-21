@@ -376,6 +376,13 @@ ul {
     grid-area: container; }
 
 @media (min-width: 1440px) {
+  .xl {
+    grid-template-columns: auto 1200px auto; } }
+
+.xl > div {
+  grid-area: container; }
+
+@media (min-width: 1440px) {
   .photo-xl-grid-container {
     display: grid;
     grid-template-areas: ". container .";
@@ -545,6 +552,110 @@ textarea {
 /* =============
     Footer
 ============= */
+footer #footer-image {
+  background-image: url("../img/footer.jpg");
+  background-repeat: no-repeat;
+  background-position: 0px -20px;
+  background-size: 105%;
+  height: 40vh; }
+  @media (min-width: 768px) {
+    footer #footer-image {
+      background-position: -30px -230px;
+      background-size: 130%;
+      height: 50vh; } }
+  @media (min-width: 1200px) {
+    footer #footer-image {
+      background-position: 0px -250px;
+      background-size: cover;
+      height: 80vh; } }
+  @media (min-width: 1440px) {
+    footer #footer-image {
+      background-position: 0px -340px;
+      height: 90vh; } }
+  footer #footer-image #footer-content {
+    margin: 0px 15px;
+    padding-top: 30px; }
+    @media (min-width: 768px) {
+      footer #footer-image #footer-content {
+        padding-top: 50px;
+        margin: 0px 25px;
+        display: grid;
+        grid-template-areas: "intro social-media";
+        grid-template-columns: 300px 200px;
+        gap: 200px; } }
+    @media (min-width: 1200px) {
+      footer #footer-image #footer-content {
+        padding-top: 70px;
+        grid-template-columns: 380px 200px;
+        padding-left: 77px;
+        gap: 350px;
+        margin: 0px 45px; } }
+    footer #footer-image #footer-content #footer-intro {
+      margin-bottom: 25px; }
+      @media (min-width: 768px) {
+        footer #footer-image #footer-content #footer-intro {
+          grid-area: intro;
+          margin-bottom: 0px; } }
+    footer #footer-image #footer-content #social-media > div {
+      font-size: 18px; }
+      @media (min-width: 768px) {
+        footer #footer-image #footer-content #social-media > div {
+          grid-area: social-media;
+          font-size: 20px; } }
+      @media (min-width: 1200px) {
+        footer #footer-image #footer-content #social-media > div {
+          font-size: 25px; } }
+      footer #footer-image #footer-content #social-media > div a:link,
+      footer #footer-image #footer-content #social-media > div a:visited {
+        color: #000;
+        transition: 0.25s;
+        margin-right: 10px; }
+      footer #footer-image #footer-content #social-media > div a:hover,
+      footer #footer-image #footer-content #social-media > div a:active {
+        color: #7C6B5E;
+        margin-right: 10px; }
+  footer #footer-image form section {
+    margin: 90px 0px 0px 15px;
+    display: flex; }
+    @media (min-width: 768px) {
+      footer #footer-image form section {
+        margin: 25px 0px 0px 25px; } }
+    @media (min-width: 1200px) {
+      footer #footer-image form section {
+        margin: 45px 0px 0px 122px; } }
+    footer #footer-image form section div input {
+      background-color: #F2E2D8;
+      border: 1px solid #6D4E35;
+      padding: 15px 15px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 400; }
+      @media (min-width: 768px) {
+        footer #footer-image form section div input {
+          width: 300px; } }
+    footer #footer-image form section div ::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #828282;
+      opacity: 1;
+      /* Firefox */ }
+    footer #footer-image form section div :-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #828282; }
+    footer #footer-image form section div ::-ms-input-placeholder {
+      /* Microsoft Edge */
+      color: #828282; }
+    footer #footer-image form section div button {
+      background-color: #7CD7F4;
+      color: #3E3E3E;
+      border: 1px solid #6D4E35;
+      padding: 0px 15px;
+      height: 100%;
+      cursor: pointer;
+      transition: 0.25s; }
+      footer #footer-image form section div button i {
+        font-size: 30px; }
+      footer #footer-image form section div button:hover {
+        background-color: #7CC6DE; }
+
 /* =============
     Index
 ============= */

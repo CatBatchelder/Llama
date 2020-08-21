@@ -87,6 +87,17 @@ ul {
     }
 }
 
+.xl{
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+
+    }
+
+    >div {
+        grid-area: container;
+    }
+}
+
 .photo-xl-grid-container {
 
     @include xl {

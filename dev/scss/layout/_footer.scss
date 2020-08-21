@@ -1,3 +1,171 @@
 /* =============
     Footer
 ============= */
+
+footer {
+
+    #footer-image {
+        background-image: url("../img/footer.jpg");
+        background-repeat: no-repeat;
+        background-position: 0px -20px;
+        background-size: 105%;
+        height: 40vh;
+
+        @include md{
+            background-position: -30px -230px;
+            background-size: 130%;
+            height: 50vh;
+        }
+
+        @include lg{
+            background-position: 0px -250px;
+            background-size: cover;
+            height: 80vh;
+        }
+
+        @include xl{
+            background-position: 0px -340px;
+            height: 90vh;
+        }
+
+        #footer-content{
+
+            margin: 0px 15px;
+
+            padding-top: 30px;
+    
+            @include md {
+                padding-top: 50px;
+                margin: 0px 25px;
+                
+                display: grid;
+                grid-template-areas: "intro social-media";
+                grid-template-columns: 300px 200px;
+                gap: 200px;
+            }
+            
+        
+            @include lg {
+                padding-top: 70px;
+                grid-template-columns: 380px 200px;
+                padding-left: 77px;
+                gap: 350px;
+                margin: 0px 45px;
+            }
+
+            #footer-intro{
+                margin-bottom: 25px;
+
+                @include md{
+                    grid-area: intro;
+                    margin-bottom: 0px;
+                }
+    
+            }
+
+            #social-media{
+
+                >div{
+                    font-size: 18px;
+
+                    @include md{
+                        grid-area: social-media;
+                        font-size: 20px;
+                    }
+    
+                    @include lg{
+                        font-size: 25px;
+                    }
+    
+                    a:link,
+                    a:visited{
+                        color: $black;
+                        transition: 0.25s;
+                        margin-right: 10px;
+    
+                    }
+    
+                    a:hover,
+                    a:active{
+                        color: $light-brown;
+                        margin-right: 10px;
+                    }
+                }
+                
+            }
+        }
+
+        form{
+            
+            section{
+                margin: 90px 0px 0px 15px;
+
+                @include md{
+                    margin: 25px 0px 0px 25px;
+                }
+
+                @include lg{
+                    margin: 45px 0px 0px 122px;
+                }
+
+                display: flex;
+
+                div{
+                    input{
+                        background-color: $cream;
+                        border: 1px solid $dark-brown;
+                        padding: 15px 15px;
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: 400;
+
+                        @include md{
+                            width: 300px;
+                        }
+                        
+                    }
+
+                    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                        color: $light-gray;
+                        opacity: 1; /* Firefox */
+                      }
+                      
+                      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+                        color: $light-gray;
+                      }
+                      
+                      ::-ms-input-placeholder { /* Microsoft Edge */
+                        color: $light-gray;
+                      }
+                }
+                
+                div{
+                    button{
+                        background-color: $light-blue;
+                        color: $dark-gray;
+                        border: 1px solid $dark-brown;
+                        padding: 0px 15px;
+                        height: 100%;
+                        cursor: pointer;
+                        transition: 0.25s;
+
+                        i{
+                            font-size: 30px;
+                        }
+
+                        &:hover{
+                            background-color: $dark-blue;
+                        }
+                    }
+                }
+            }
+            
+            
+
+            
+
+        }
+        
+    }
+
+
+}
