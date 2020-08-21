@@ -634,3 +634,70 @@ textarea {
     #index > div #personality > div .cards {
       border-radius: 20px;
       padding: 45px 35px; } }
+#care #care-container #section-1 #section-1-container #section1-header h1 {
+  text-align: center; }
+
+#care #care-container #section-1 #section-1-container #section1-header img {
+  display: none; }
+
+#care #care-container #section-1 #section-1-container #section-1-content .care-para p {
+  text-align: justify; }
+
+#care #care-container #section-1 #section-1-container #section-1-content #llama-1 {
+  padding-top: 30px;
+  margin-left: 30px; }
+  #care #care-container #section-1 #section-1-container #section-1-content #llama-1 #llama-cream {
+    width: 300px; }
+
+#care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 {
+  padding-bottom: 30px;
+  padding-top: 30px; }
+  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 #footstep-1 {
+    margin-left: 100px; }
+  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 #footstep-2 {
+    margin-left: 30px;
+    padding-top: 30px; }
+  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 #footstep-3 {
+    margin-left: 250px;
+    margin-top: 20px; }
+
+#care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-2 {
+  padding-bottom: 30px;
+  padding-top: 30px; }
+  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-2 #footstep-4 {
+    margin-left: 250px; }
+
+#care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 {
+  padding-bottom: 30px;
+  padding-top: 30px; }
+  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 #footstep-5 {
+    margin-left: 150px; }
+  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 #footstep-6 {
+    margin-left: 20px; }
+
+#care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-4 {
+  padding-bottom: 30px;
+  padding-top: 30px; }
+  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-4 #footstep-7 {
+    margin-left: 150px; }
+
+#care #care-container #section-1 #section-1-container #section-1-content #llama-2 {
+  margin-left: 80px;
+  margin-top: -70px;
+  padding-bottom: 30px; }
+  #care #care-container #section-1 #section-1-container #section-1-content #llama-2 #llama-brown {
+    width: 250px; }
+
+#care #care-container #section-1 #section-1-container #section-1-content #para-5 {
+  padding-bottom: 40px; }
+
+#care #care-container #section-2 #section-2-container #llama-winky-face img {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 250px;
+  display: block;
+  margin: auto; }
+
+#care #care-container #section-2 #section-2-container #llama-text-bubble .bubble {
+  background-color: #FCD958;
+  padding: 20px; }
