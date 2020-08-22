@@ -108,6 +108,7 @@
                     #para-2 {
                         @include md {
                             margin-left: 23vw;
+                            margin-top: 3vh;
                         }
                     }
 
@@ -118,6 +119,18 @@
                         #footstep-4 {
                             // margin-top: 30px;
                             margin-left: 250px;
+
+                            @include md {
+                                margin-left: 37vw;
+                                margin-top: 3vh;
+                            }
+                        }
+                    }
+
+                    #para-3 {
+                        @include md {
+                            margin-top: 2vh;
+                            margin-left: 13vw;
                         }
                     }
 
@@ -128,12 +141,26 @@
                         #footstep-5 {
                             // margin-top: 30px;
                             margin-left: 150px;
+
+                            @include md {
+                                margin-left: 42vw;
+                            }
                         }
 
                         #footstep-6 {
                             margin-left: 20px;
-                            // margin-top: 10px;
-                            // top: 20px;
+                            
+                            @include md {
+                                margin-left: -8vw;
+                                margin-bottom: -8vh;
+                            }
+                        }
+                    }
+
+                    #para-4 {
+                        @include md {
+                            margin-left: 42vw;
+                            margin-top: 7vh;
                         }
                     }
 
@@ -144,6 +171,11 @@
                         #footstep-7 {
                             // margin-top: 30px;
                             margin-left: 150px;
+
+                            @include md {
+                                margin-left: 55vw;
+                                margin-top: 3vh;
+                            }
                         }
                     }
 
@@ -152,13 +184,28 @@
                         margin-top: -70px;
                         padding-bottom: 30px;
 
+                        @include md {
+                            margin-left: 0;
+                            margin-top: -35vh;
+                        }
+
                         #llama-brown {
                             width: 250px;
+
+                            @include md {
+                                width: 300px;
+                            }
                         }
                     }
 
                     #para-5 {
                         padding-bottom: 40px;
+
+                        @include md {
+                            margin-left: 33vw;
+                            margin-top: -2vh;
+                            padding-bottom: 70px;
+                        }
                     }
                 }
 

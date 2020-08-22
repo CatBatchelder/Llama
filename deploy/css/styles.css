@@ -697,38 +697,71 @@ textarea {
         margin-bottom: -5vh; } }
 @media (min-width: 768px) {
   #care #care-container #section-1 #section-1-container #section-1-content #para-2 {
-    margin-left: 23vw; } }
+    margin-left: 23vw;
+    margin-top: 3vh; } }
 
 #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-2 {
   padding-bottom: 30px;
   padding-top: 30px; }
   #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-2 #footstep-4 {
     margin-left: 250px; }
+    @media (min-width: 768px) {
+      #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-2 #footstep-4 {
+        margin-left: 37vw;
+        margin-top: 3vh; } }
+@media (min-width: 768px) {
+  #care #care-container #section-1 #section-1-container #section-1-content #para-3 {
+    margin-top: 2vh;
+    margin-left: 13vw; } }
 
 #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 {
   padding-bottom: 30px;
   padding-top: 30px; }
   #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 #footstep-5 {
     margin-left: 150px; }
+    @media (min-width: 768px) {
+      #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 #footstep-5 {
+        margin-left: 42vw; } }
   #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 #footstep-6 {
     margin-left: 20px; }
+    @media (min-width: 768px) {
+      #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 #footstep-6 {
+        margin-left: -8vw;
+        margin-bottom: -8vh; } }
+@media (min-width: 768px) {
+  #care #care-container #section-1 #section-1-container #section-1-content #para-4 {
+    margin-left: 42vw;
+    margin-top: 7vh; } }
 
 #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-4 {
   padding-bottom: 30px;
   padding-top: 30px; }
   #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-4 #footstep-7 {
     margin-left: 150px; }
-
+    @media (min-width: 768px) {
+      #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-4 #footstep-7 {
+        margin-left: 55vw;
+        margin-top: 3vh; } }
 #care #care-container #section-1 #section-1-container #section-1-content #llama-2 {
   margin-left: 80px;
   margin-top: -70px;
   padding-bottom: 30px; }
+  @media (min-width: 768px) {
+    #care #care-container #section-1 #section-1-container #section-1-content #llama-2 {
+      margin-left: 0;
+      margin-top: -35vh; } }
   #care #care-container #section-1 #section-1-container #section-1-content #llama-2 #llama-brown {
     width: 250px; }
-
+    @media (min-width: 768px) {
+      #care #care-container #section-1 #section-1-container #section-1-content #llama-2 #llama-brown {
+        width: 300px; } }
 #care #care-container #section-1 #section-1-container #section-1-content #para-5 {
   padding-bottom: 40px; }
-
+  @media (min-width: 768px) {
+    #care #care-container #section-1 #section-1-container #section-1-content #para-5 {
+      margin-left: 33vw;
+      margin-top: -2vh;
+      padding-bottom: 70px; } }
 #care #care-container #section-2 #section-2-container #llama-winky-face img {
   padding-top: 30px;
   padding-bottom: 20px;
