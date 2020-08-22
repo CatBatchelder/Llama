@@ -9,7 +9,7 @@ footer {
         background-repeat: no-repeat;
         background-position: 0px -20px;
         background-size: 105%;
-        height: 40vh;
+        height: 50vh;
 
         @include md{
             background-position: -30px -230px;
@@ -98,7 +98,7 @@ footer {
         form{
             
             section{
-                margin: 90px 0px 0px 15px;
+                margin: 70px 0px 0px 15px;
 
                 @include md{
                     margin: 25px 0px 0px 25px;
