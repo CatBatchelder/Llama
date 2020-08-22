@@ -15,7 +15,7 @@ ul {
     }
 }
 
-.spacing-for-header{
+.spacing-for-header {
     margin-top: 130px;
 }
 
@@ -100,3 +100,10 @@ ul {
     }
 }
 
+.show-for-md {
+    display: none;
+
+    @include md {
+        display: inline;
+    }
+}

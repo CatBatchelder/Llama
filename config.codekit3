@@ -35,52 +35,52 @@
 		"oAP": "/deploy/gallery.html",
 		"oF": 0
 		},
-	"/deploy/img/care/arrow.svg": {
+	"/deploy/img/Care/arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/care/arrow.svg",
+		"oAP": "/deploy/img/Care/arrow.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/care/care.jpg": {
+	"/deploy/img/Care/care.jpg": {
 		"ft": 16384,
 		"iS": 429019,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/care/care.jpg",
+		"oAP": "/deploy/img/Care/care.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/care/llama-mascot-brown.svg": {
+	"/deploy/img/Care/llama-mascot-brown.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/care/llama-mascot-brown.svg",
+		"oAP": "/deploy/img/Care/llama-mascot-brown.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/care/llama-mascot.svg": {
+	"/deploy/img/Care/llama-mascot.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/care/llama-mascot.svg",
+		"oAP": "/deploy/img/Care/llama-mascot.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/care/wink-llama.svg": {
+	"/deploy/img/Care/wink-llama.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/care/wink-llama.svg",
+		"oAP": "/deploy/img/Care/wink-llama.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -97,45 +97,144 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/home/card-1.jpg": {
+	"/deploy/img/gallery/fred.jpg": {
+		"ft": 16384,
+		"iS": 35953,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/fred.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/g1.jpg": {
+		"ft": 16384,
+		"iS": 31724,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/g1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/g2.jpg": {
+		"ft": 16384,
+		"iS": 38412,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/g2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/g3.jpg": {
+		"ft": 16384,
+		"iS": 39094,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/g3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/g4.jpg": {
+		"ft": 16384,
+		"iS": 70056,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/g4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/g5.jpg": {
+		"ft": 16384,
+		"iS": 41046,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/g5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/g6.jpg": {
+		"ft": 16384,
+		"iS": 41966,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/g6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/g7.jpg": {
+		"ft": 16384,
+		"iS": 52831,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/g7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/g8.jpg": {
+		"ft": 16384,
+		"iS": 20164,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/g8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/Home/card-1.jpg": {
 		"ft": 16384,
 		"iS": 388637,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/home/card-1.jpg",
+		"oAP": "/deploy/img/Home/card-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/home/card-2.jpg": {
+	"/deploy/img/Home/card-2.jpg": {
 		"ft": 16384,
 		"iS": 390021,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/home/card-2.jpg",
+		"oAP": "/deploy/img/Home/card-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/home/card-3.jpg": {
+	"/deploy/img/Home/card-3.jpg": {
 		"ft": 16384,
 		"iS": 161383,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/home/card-3.jpg",
+		"oAP": "/deploy/img/Home/card-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/home/main-hero.jpg": {
+	"/deploy/img/Home/main-hero.jpg": {
 		"ft": 16384,
 		"iS": 310734,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/home/main-hero.jpg",
+		"oAP": "/deploy/img/Home/main-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
