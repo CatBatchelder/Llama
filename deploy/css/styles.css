@@ -557,7 +557,7 @@ footer #footer-image {
   background-repeat: no-repeat;
   background-position: 0px -20px;
   background-size: 105%;
-  height: 40vh; }
+  height: 50vh; }
   @media (min-width: 768px) {
     footer #footer-image {
       background-position: -30px -230px;
@@ -615,7 +615,7 @@ footer #footer-image {
         color: #7C6B5E;
         margin-right: 10px; }
   footer #footer-image form section {
-    margin: 90px 0px 0px 15px;
+    margin: 70px 0px 0px 15px;
     display: flex; }
     @media (min-width: 768px) {
       footer #footer-image form section {
