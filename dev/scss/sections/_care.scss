@@ -585,19 +585,43 @@
     }
 
     #steps-7-8 {
+        @include md {
+            display: grid;
+            grid-template-columns: auto 40% 40%;
+            grid-template-areas: ". step7 step8";
+        }
+
         #step-8-container {
             padding: 20px 15px;
+
+            @include md {
+                grid-area: step8;
+                padding: 30px 0;
+            }
 
             #step-8 {
                 padding-top: 30px;
 
+                @include md {
+                    padding-bottom: 7vh;
+                }
+
                 h1 {
                     margin-top: -40px;
                     margin-left: 30px;
+
+                    @include md {
+                        margin-top: 0vh;
+                        // margin-left: 8vw;
+                    }
                 }
 
                 p {
                     margin-top: -50px;
+                    @include md {
+                        margin-top: -7vh;
+                        margin-left: 8vw;
+                    }
                 }
             }
         }
@@ -605,16 +629,33 @@
         #step-7-container {
             padding: 20px 15px;
 
-            #step-7 {
+            @include md {
+                grid-area: step7;
+                padding: 30px 20px;
+            }
 
-                // padding-bottom: 30px;
+            #step-7 {
+                @include md {
+                    padding: 20px 40px 3vh 50px;
+                }
+
                 h1 {
                     margin-top: -30px;
                     margin-left: 30px;
+
+                    @include md {
+                        margin-top: -3vh;
+                        margin-left: -1vw;
+                    }
                 }
 
                 p {
                     margin-top: -50px;
+
+                    @include md {
+                        margin-top: -5vh;
+                        margin-left:2vw;
+                    }
                 }
             }
         }
