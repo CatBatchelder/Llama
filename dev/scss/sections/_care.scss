@@ -5,6 +5,10 @@
                 #section1-header {
                     h1 {
                         text-align: center;
+
+                        @include md {
+                            text-align: left;
+                        }
                     }
 
                     h2 {}
@@ -12,22 +16,53 @@
                     img {
                         // height: 100px;
                         display: none;
+
+                        @include md {
+                            display: block;
+                            // margin-top: -70px;
+                            margin-top: -7vh;
+                            // margin-left: 320px;
+                            margin-left: 33vw;
+                        }
                     }
                 }
 
                 #section-1-content {
                     .care-para {
+                        @include md {
+                            width: 250px;
+                        }
+
                         p {
                             text-align: justify;
                         }
+                    }
+
+                    #para-1 {
+                        @include md {
+                            // margin-top: -30px;
+                            margin-top: -3vh;
+                        }
+                        
                     }
 
                     #llama-1 {
                         padding-top: 30px;
                         margin-left: 30px;
 
+                        @include md {
+                            // margin-left: 420px;
+                            margin-left: 52vw;
+                            // margin-top: -180px;
+                            margin-top: -18vh;
+                        }
+
                         #llama-cream {
                             width: 300px;
+
+                            @include md {
+                                width: 350px;
+                            }
                         }
                     }
 
@@ -35,19 +70,44 @@
                         padding-bottom: 30px;
                         padding-top: 30px;
 
+                        @include md {
+                            margin-top: -28vh;
+                            margin-left: 3vw;
+                        }
+
                         #footstep-1 {
                             margin-left: 100px;
                             // margin-top: 30px;
+
+                            @include md {
+                                margin-left: 12vw;
+                            }
                         }
 
                         #footstep-2 {
                             margin-left: 30px;
                             padding-top: 30px;
+
+                            @include md {
+                                margin-left: 3vw;
+                                margin-top: 3vh;
+                            }
                         }
 
                         #footstep-3 {
                             margin-left: 250px;
                             margin-top: 20px;
+
+                            @include md {
+                                margin-left: -12vw;
+                                margin-bottom: -5vh;
+                            }
+                        }
+                    }
+
+                    #para-2 {
+                        @include md {
+                            margin-left: 23vw;
                         }
                     }
 
