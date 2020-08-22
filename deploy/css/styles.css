@@ -762,25 +762,43 @@ textarea {
       margin-left: 33vw;
       margin-top: -2vh;
       padding-bottom: 70px; } }
-#care #care-container #section-2 #section-2-container #llama-winky-face img {
+@media (min-width: 768px) {
+  #care #care-container #section-2 #section-2-container #section-2-llama {
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-template-areas: "llama bubble"; } }
+
+@media (min-width: 768px) {
+  #care #care-container #section-2 #section-2-container #section-2-llama #llama-winky-face {
+    grid-area: llama; } }
+
+#care #care-container #section-2 #section-2-container #section-2-llama #llama-winky-face img {
   padding-top: 30px;
   padding-bottom: 20px;
   width: 250px;
   display: block;
   margin: auto; }
+  @media (min-width: 768px) {
+    #care #care-container #section-2 #section-2-container #section-2-llama #llama-winky-face img {
+      width: 275px;
+      margin-top: 3vh;
+      margin-left: 0vw; } }
+@media (min-width: 768px) {
+  #care #care-container #section-2 #section-2-container #section-2-llama #llama-text-bubble {
+    grid-area: bubble; } }
 
-#care #care-container #section-2 #section-2-container #llama-text-bubble .bubble {
+#care #care-container #section-2 #section-2-container #section-2-llama #llama-text-bubble .bubble {
   background-color: #FCD958;
   padding: 20px;
   border-radius: 20px; }
 
-#care #care-container #section-2 #section-2-container #llama-text-bubble #p1 {
+#care #care-container #section-2 #section-2-container #section-2-llama #llama-text-bubble #p1 {
   padding: 30px 0; }
 
-#care #care-container #section-2 #section-2-container #llama-text-bubble #p12 {
+#care #care-container #section-2 #section-2-container #section-2-llama #llama-text-bubble #p12 {
   padding: 30px 0; }
 
-#care #care-container #section-2 #section-2-container #llama-text-bubble #p3 {
+#care #care-container #section-2 #section-2-container #section-2-llama #llama-text-bubble #p3 {
   padding: 30px 0; }
 
 #care-section-3 {
@@ -789,9 +807,11 @@ textarea {
     background-image: url("../img/care/care.jpg");
     height: 400px;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat; }
-
+    @media (min-width: 768px) {
+      #care-section-3 #image {
+        height: 600px; } }
 #care-section-4 #section-4-title {
   display: grid;
   grid-template-columns: 15px auto 15px;
