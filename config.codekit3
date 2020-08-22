@@ -130,26 +130,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/home/confused-llama.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/home/confused-llama.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/home/friendly-llama.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/home/friendly-llama.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
 	"/deploy/img/home/main-hero.jpg": {
 		"ft": 16384,
 		"iS": 310734,
@@ -160,26 +140,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"/deploy/img/home/shocked-llama.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/home/shocked-llama.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/home/wink-llama.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/home/wink-llama.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
 		},
 	"/deploy/index.html": {
 		"cB": 0,
@@ -537,9 +497,9 @@
 "projectAttributes": {
 	"creationDate": 619554119.65232003,
 	"displayValue": "Llama",
-	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets-pink",
-	"iconImageWasSetByUser": 1
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "brackets_orange",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
