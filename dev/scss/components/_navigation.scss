@@ -16,14 +16,95 @@
     z-index: 999;
 
     #nav-container {
+        @include md {
+            display: grid; 
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: "llama menu";
+        }
         #llama-illustration {
             display: none;
+
+            @include md {
+                display: grid;
+                grid-area: llama;
+                // padding-right: 60px;
+                margin-top: 20vh;
+            }
+
+            #llama {
+                #llama-lg{
+                    display: none;
+                }
+
+                #llama-md {
+                    @include md {
+                        margin-bottom: -30vh;
+                    }
+                }
+            }
+
+            #arrow {
+                @include md {
+                    margin-top: -29vh;
+                }
+                #arrow-lg {
+                    display: none;
+                }
+
+                #arrow-md {
+                    @include md {
+                        margin-left: 15vh;
+                    }
+                }
+            }
+
+            #text-bubble {
+                margin-top: -13vh;
+                // padding-left: 30px;
+
+                #bubble {
+                    @include md {
+                        padding: 20px;
+                    }
+
+                    @include md {
+                        background-color: $yellow;
+                        padding: 20px 40px;
+                        border-radius: 33px;
+                    }
+
+                    p {
+                        @include md {
+                            color: $dark-brown;
+                            width: 200px;
+                            font-size: rem-calc(20);
+                            line-height: rem-calc(24);
+                            font-family: 'Raleway', sans-serif;
+                            font-weight: 500;
+                            text-align: justify;
+                        }
+                    }
+                }
+            }
         }
 
         #main-menu {
+            @include md {
+                display: grid;
+                grid-area: menu;
+                margin-top: -10vh;
+                padding-left: 60px;
+            }
+
             ul {
                 li {
+
                     text-align: center;
+                    
+                    @include md {
+                        padding-bottom: 20px;
+                        text-align: left;
+                    }
 
                     a:link, a:visited {
                         font-family: 'Raleway', sans-serif;
