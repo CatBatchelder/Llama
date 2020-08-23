@@ -21,6 +21,10 @@
             grid-template-columns: repeat(2, 1fr);
             grid-template-areas: "llama menu";
         }
+
+        @include lg {
+            grid-template-areas: "menu llama";
+        }
         #llama-illustration {
             display: none;
 
@@ -34,11 +38,21 @@
             #llama {
                 #llama-lg{
                     display: none;
+
+                    @include lg {
+                        display: grid;
+                        width: 330px;
+                        margin-bottom: -20vh;
+                    }
                 }
 
                 #llama-md {
                     @include md {
                         margin-bottom: -30vh;
+                    }
+
+                    @include lg {
+                        display: none;
                     }
                 }
             }
@@ -47,13 +61,25 @@
                 @include md {
                     margin-top: -29vh;
                 }
+
                 #arrow-lg {
                     display: none;
+
+                    @include lg {
+                        display: grid;
+                        // width: 365px;
+                        margin-top: -27vh;
+                        margin-left: -10vw;
+                    }
                 }
 
                 #arrow-md {
                     @include md {
                         margin-left: 15vh;
+                    }
+
+                    @include lg {
+                        display: none;
                     }
                 }
             }
@@ -62,6 +88,9 @@
                 margin-top: -13vh;
                 // padding-left: 30px;
 
+                @include lg {
+                    margin-top: -48vh;
+                }
                 #bubble {
                     @include md {
                         padding: 20px;
@@ -83,6 +112,10 @@
                             font-weight: 500;
                             text-align: justify;
                         }
+
+                        @include lg {
+                            width: 290px;
+                        }
                     }
                 }
             }
@@ -94,6 +127,10 @@
                 grid-area: menu;
                 margin-top: -10vh;
                 padding-left: 60px;
+            }
+
+            @include lg {
+                margin-top: 5vh;
             }
 
             ul {
@@ -112,6 +149,10 @@
                         font-weight: 700;
                         color: $dark-brown;
                         text-decoration: none;
+
+                        // @include lg {
+                        //     font-size: rem-calc(64);
+                        // }
                     }
 
                     a:active, a:hover {

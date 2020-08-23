@@ -563,6 +563,9 @@ textarea {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-areas: "llama menu"; } }
+  @media (min-width: 1200px) {
+    #main-nav #nav-container {
+      grid-template-areas: "menu llama"; } }
   #main-nav #nav-container #llama-illustration {
     display: none; }
     @media (min-width: 768px) {
@@ -572,19 +575,38 @@ textarea {
         margin-top: 20vh; } }
     #main-nav #nav-container #llama-illustration #llama #llama-lg {
       display: none; }
+      @media (min-width: 1200px) {
+        #main-nav #nav-container #llama-illustration #llama #llama-lg {
+          display: grid;
+          width: 330px;
+          margin-bottom: -20vh; } }
     @media (min-width: 768px) {
       #main-nav #nav-container #llama-illustration #llama #llama-md {
         margin-bottom: -30vh; } }
+    @media (min-width: 1200px) {
+      #main-nav #nav-container #llama-illustration #llama #llama-md {
+        display: none; } }
     @media (min-width: 768px) {
       #main-nav #nav-container #llama-illustration #arrow {
         margin-top: -29vh; } }
     #main-nav #nav-container #llama-illustration #arrow #arrow-lg {
       display: none; }
+      @media (min-width: 1200px) {
+        #main-nav #nav-container #llama-illustration #arrow #arrow-lg {
+          display: grid;
+          margin-top: -27vh;
+          margin-left: -10vw; } }
     @media (min-width: 768px) {
       #main-nav #nav-container #llama-illustration #arrow #arrow-md {
         margin-left: 15vh; } }
+    @media (min-width: 1200px) {
+      #main-nav #nav-container #llama-illustration #arrow #arrow-md {
+        display: none; } }
     #main-nav #nav-container #llama-illustration #text-bubble {
       margin-top: -13vh; }
+      @media (min-width: 1200px) {
+        #main-nav #nav-container #llama-illustration #text-bubble {
+          margin-top: -48vh; } }
       @media (min-width: 768px) {
         #main-nav #nav-container #llama-illustration #text-bubble #bubble {
           padding: 20px; } }
@@ -602,12 +624,18 @@ textarea {
           font-family: 'Raleway', sans-serif;
           font-weight: 500;
           text-align: justify; } }
+      @media (min-width: 1200px) {
+        #main-nav #nav-container #llama-illustration #text-bubble #bubble p {
+          width: 290px; } }
   @media (min-width: 768px) {
     #main-nav #nav-container #main-menu {
       display: grid;
       grid-area: menu;
       margin-top: -10vh;
       padding-left: 60px; } }
+  @media (min-width: 1200px) {
+    #main-nav #nav-container #main-menu {
+      margin-top: 5vh; } }
   #main-nav #nav-container #main-menu ul li {
     text-align: center; }
     @media (min-width: 768px) {
