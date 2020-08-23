@@ -548,7 +548,7 @@ textarea {
 ============= */
 #main-nav {
   background-color: #F2CA9A;
-  display: grid;
+  display: none;
   place-items: center;
   position: fixed;
   top: 0;

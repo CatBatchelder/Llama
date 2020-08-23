@@ -3,8 +3,11 @@
 ============= */
 #main-nav {
     background-color: $light-orange;
-    display: grid;
-    // display: none;
+
+    //switch between display none and grid for preview
+    // display: grid;
+    display: none;
+
     place-items: center;
     position: fixed;
     top: 0;
