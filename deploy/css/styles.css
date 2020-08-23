@@ -546,9 +546,62 @@ textarea {
 /* =============
     Navigation
 ============= */
+#main-nav {
+  background-color: #F2CA9A;
+  display: grid;
+  place-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 999; }
+  #main-nav #nav-container #llama-illustration {
+    display: none; }
+  #main-nav #nav-container #main-menu ul li {
+    text-align: center; }
+    #main-nav #nav-container #main-menu ul li a:link, #main-nav #nav-container #main-menu ul li a:visited {
+      font-family: 'Raleway', sans-serif;
+      font-size: 3.125rem;
+      font-weight: 700;
+      color: #6D4E35;
+      text-decoration: none; }
+    #main-nav #nav-container #main-menu ul li a:active, #main-nav #nav-container #main-menu ul li a:hover {
+      transition: 0.25s;
+      font-style: italic;
+      color: #F49D11;
+      text-decoration: underline; }
+
 /* =============
     Header
 ============= */
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: #fff; }
+  header div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    header div #logo-container {
+      padding: 10px 0; }
+      header div #logo-container img {
+        width: 53px; }
+        @media (min-width: 768px) {
+          header div #logo-container img {
+            width: 60px; } }
+    header div #burger-container {
+      align-items: center;
+      display: flex;
+      justify-content: flex-end; }
+      header div #burger-container #burger {
+        cursor: pointer;
+        transition: 0.25s; }
+
 /* =============
     Footer
 ============= */
@@ -810,216 +863,202 @@ footer #footer-image {
     #index > div #personality > div .cards {
       border-radius: 20px;
       padding: 45px 35px; } }
-#care #care-container #section-1 #section-1-container #section1-header h1 {
-  text-align: center; }
-  @media (min-width: 768px) {
-    #care #care-container #section-1 #section-1-container #section1-header h1 {
-      text-align: left; } }
-#care #care-container #section-1 #section-1-container #section1-header img {
-  display: none; }
-  @media (min-width: 768px) {
-    #care #care-container #section-1 #section-1-container #section1-header img {
-      display: block;
-      margin-top: -7vh;
-      margin-left: 33vw; } }
-  @media (min-width: 1200px) {
-    #care #care-container #section-1 #section-1-container #section1-header img {
-      margin-top: -12vh;
-      margin-left: 26vw; } }
-@media (min-width: 768px) {
-  #care #care-container #section-1 #section-1-container #section-1-content .care-para {
-    width: 250px; } }
-
-@media (min-width: 1200px) {
-  #care #care-container #section-1 #section-1-container #section-1-content .care-para {
-    width: 300px; } }
-
-#care #care-container #section-1 #section-1-container #section-1-content .care-para p {
-  text-align: justify; }
-
-@media (min-width: 768px) {
-  #care #care-container #section-1 #section-1-container #section-1-content #para-1 {
-    margin-top: -3vh; } }
-
-@media (min-width: 1200px) {
-  #care #care-container #section-1 #section-1-container #section-1-content #para-1 {
-    margin-left: 3vw; } }
-
-#care #care-container #section-1 #section-1-container #section-1-content #llama-1 {
-  padding-top: 30px;
-  margin-left: 30px; }
-  @media (min-width: 768px) {
-    #care #care-container #section-1 #section-1-container #section-1-content #llama-1 {
-      margin-left: 52vw;
-      margin-top: -18vh; } }
-  @media (min-width: 1200px) {
-    #care #care-container #section-1 #section-1-container #section-1-content #llama-1 {
-      margin-left: 52vw;
-      margin-top: -25vh; } }
-  #care #care-container #section-1 #section-1-container #section-1-content #llama-1 #llama-cream {
-    width: 300px; }
+#care {
+  padding-top: 80px; }
+  #care #care-container #section-1 #section-1-container #section1-header h1 {
+    text-align: center; }
     @media (min-width: 768px) {
-      #care #care-container #section-1 #section-1-container #section-1-content #llama-1 #llama-cream {
-        width: 350px; } }
+      #care #care-container #section-1 #section-1-container #section1-header h1 {
+        text-align: left; } }
+  #care #care-container #section-1 #section-1-container #section1-header img {
+    display: none; }
+    @media (min-width: 768px) {
+      #care #care-container #section-1 #section-1-container #section1-header img {
+        display: block;
+        margin-top: -7vh;
+        margin-left: 33vw; } }
     @media (min-width: 1200px) {
-      #care #care-container #section-1 #section-1-container #section-1-content #llama-1 #llama-cream {
-        width: 475px; } }
-#care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 {
-  padding-bottom: 30px;
-  padding-top: 30px; }
+      #care #care-container #section-1 #section-1-container #section1-header img {
+        margin-top: -12vh;
+        margin-left: 26vw; } }
   @media (min-width: 768px) {
-    #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 {
-      margin-top: -28vh;
-      margin-left: 3vw; } }
+    #care #care-container #section-1 #section-1-container #section-1-content .care-para {
+      width: 250px; } }
   @media (min-width: 1200px) {
-    #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 {
-      margin-top: -50vh;
+    #care #care-container #section-1 #section-1-container #section-1-content .care-para {
+      width: 300px; } }
+  #care #care-container #section-1 #section-1-container #section-1-content .care-para p {
+    text-align: justify; }
+  @media (min-width: 768px) {
+    #care #care-container #section-1 #section-1-container #section-1-content #para-1 {
+      margin-top: -3vh; } }
+  @media (min-width: 1200px) {
+    #care #care-container #section-1 #section-1-container #section-1-content #para-1 {
       margin-left: 3vw; } }
-  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 #footstep-1 {
-    margin-left: 100px; }
+  #care #care-container #section-1 #section-1-container #section-1-content #llama-1 {
+    padding-top: 30px;
+    margin-left: 30px; }
     @media (min-width: 768px) {
-      #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 #footstep-1 {
-        margin-left: 12vw; } }
-  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 #footstep-2 {
-    margin-left: 30px;
+      #care #care-container #section-1 #section-1-container #section-1-content #llama-1 {
+        margin-left: 52vw;
+        margin-top: -18vh; } }
+    @media (min-width: 1200px) {
+      #care #care-container #section-1 #section-1-container #section-1-content #llama-1 {
+        margin-left: 52vw;
+        margin-top: -25vh; } }
+    #care #care-container #section-1 #section-1-container #section-1-content #llama-1 #llama-cream {
+      width: 300px; }
+      @media (min-width: 768px) {
+        #care #care-container #section-1 #section-1-container #section-1-content #llama-1 #llama-cream {
+          width: 350px; } }
+      @media (min-width: 1200px) {
+        #care #care-container #section-1 #section-1-container #section-1-content #llama-1 #llama-cream {
+          width: 475px; } }
+  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 {
+    padding-bottom: 30px;
     padding-top: 30px; }
     @media (min-width: 768px) {
-      #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 #footstep-2 {
-        margin-left: 3vw;
-        margin-top: 3vh; } }
-  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 #footstep-3 {
-    margin-left: 250px;
-    margin-top: 20px; }
-    @media (min-width: 768px) {
-      #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 #footstep-3 {
-        margin-left: -12vw;
-        margin-bottom: -5vh; } }
-@media (min-width: 768px) {
-  #care #care-container #section-1 #section-1-container #section-1-content #para-2 {
-    margin-left: 23vw;
-    margin-top: 3vh; } }
-
-#care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-2 {
-  padding-bottom: 30px;
-  padding-top: 30px; }
-  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-2 #footstep-4 {
-    margin-left: 250px; }
-    @media (min-width: 768px) {
-      #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-2 #footstep-4 {
-        margin-left: 37vw;
-        margin-top: 3vh; } }
-@media (min-width: 768px) {
-  #care #care-container #section-1 #section-1-container #section-1-content #para-3 {
-    margin-top: 2vh;
-    margin-left: 13vw; } }
-
-#care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 {
-  padding-bottom: 30px;
-  padding-top: 30px; }
-  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 #footstep-5 {
-    margin-left: 150px; }
-    @media (min-width: 768px) {
-      #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 #footstep-5 {
-        margin-left: 42vw; } }
-  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 #footstep-6 {
-    margin-left: 20px; }
-    @media (min-width: 768px) {
-      #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 #footstep-6 {
-        margin-left: -8vw;
-        margin-bottom: -8vh; } }
-@media (min-width: 768px) {
-  #care #care-container #section-1 #section-1-container #section-1-content #para-4 {
-    margin-left: 42vw;
-    margin-top: 7vh; } }
-
-#care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-4 {
-  padding-bottom: 30px;
-  padding-top: 30px; }
-  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-4 #footstep-7 {
-    margin-left: 150px; }
-    @media (min-width: 768px) {
-      #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-4 #footstep-7 {
-        margin-left: 55vw;
-        margin-top: 3vh; } }
-#care #care-container #section-1 #section-1-container #section-1-content #llama-2 {
-  margin-left: 80px;
-  margin-top: -70px;
-  padding-bottom: 30px; }
-  @media (min-width: 768px) {
-    #care #care-container #section-1 #section-1-container #section-1-content #llama-2 {
-      margin-left: 0;
-      margin-top: -35vh; } }
-  #care #care-container #section-1 #section-1-container #section-1-content #llama-2 #llama-brown {
-    width: 250px; }
-    @media (min-width: 768px) {
-      #care #care-container #section-1 #section-1-container #section-1-content #llama-2 #llama-brown {
-        width: 300px; } }
+      #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 {
+        margin-top: -28vh;
+        margin-left: 3vw; } }
     @media (min-width: 1200px) {
-      #care #care-container #section-1 #section-1-container #section-1-content #llama-2 #llama-brown {
-        width: 400px; } }
-#care #care-container #section-1 #section-1-container #section-1-content #para-5 {
-  padding-bottom: 40px; }
+      #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 {
+        margin-top: -50vh;
+        margin-left: 3vw; } }
+    #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 #footstep-1 {
+      margin-left: 100px; }
+      @media (min-width: 768px) {
+        #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 #footstep-1 {
+          margin-left: 12vw; } }
+    #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 #footstep-2 {
+      margin-left: 30px;
+      padding-top: 30px; }
+      @media (min-width: 768px) {
+        #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 #footstep-2 {
+          margin-left: 3vw;
+          margin-top: 3vh; } }
+    #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 #footstep-3 {
+      margin-left: 250px;
+      margin-top: 20px; }
+      @media (min-width: 768px) {
+        #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-1 #footstep-3 {
+          margin-left: -12vw;
+          margin-bottom: -5vh; } }
   @media (min-width: 768px) {
-    #care #care-container #section-1 #section-1-container #section-1-content #para-5 {
-      margin-left: 33vw;
-      margin-top: -2vh;
-      padding-bottom: 70px; } }
-  @media (min-width: 1200px) {
-    #care #care-container #section-1 #section-1-container #section-1-content #para-5 {
-      margin-left: 33vw;
-      margin-top: -22vh;
-      padding-bottom: 70px; } }
-@media (min-width: 1200px) {
-  #care #care-container #section-2 {
-    padding-top: 100px; } }
-
-@media (min-width: 768px) {
-  #care #care-container #section-2 #section-2-container #section-2-llama {
-    display: grid;
-    grid-template-columns: 40% auto;
-    grid-template-areas: "llama bubble"; } }
-
-@media (min-width: 768px) {
-  #care #care-container #section-2 #section-2-container #section-2-llama #llama-winky-face {
-    grid-area: llama; } }
-
-#care #care-container #section-2 #section-2-container #section-2-llama #llama-winky-face img {
-  padding-top: 30px;
-  padding-bottom: 20px;
-  width: 250px;
-  display: block;
-  margin: auto; }
+    #care #care-container #section-1 #section-1-container #section-1-content #para-2 {
+      margin-left: 23vw;
+      margin-top: 3vh; } }
+  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-2 {
+    padding-bottom: 30px;
+    padding-top: 30px; }
+    #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-2 #footstep-4 {
+      margin-left: 250px; }
+      @media (min-width: 768px) {
+        #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-2 #footstep-4 {
+          margin-left: 37vw;
+          margin-top: 3vh; } }
   @media (min-width: 768px) {
-    #care #care-container #section-2 #section-2-container #section-2-llama #llama-winky-face img {
-      width: 275px;
-      margin-top: 3vh;
-      margin-left: 0vw; } }
-  @media (min-width: 1200px) {
-    #care #care-container #section-2 #section-2-container #section-2-llama #llama-winky-face img {
-      width: 330px;
+    #care #care-container #section-1 #section-1-container #section-1-content #para-3 {
       margin-top: 2vh;
-      margin-left: 7vw; } }
-@media (min-width: 768px) {
-  #care #care-container #section-2 #section-2-container #section-2-llama #llama-text-bubble {
-    grid-area: bubble; } }
-
-@media (min-width: 1200px) {
-  #care #care-container #section-2 #section-2-container #section-2-llama #llama-text-bubble {
-    padding-left: 70px; } }
-
-#care #care-container #section-2 #section-2-container #section-2-llama #llama-text-bubble .bubble {
-  background-color: #FCD958;
-  padding: 20px;
-  border-radius: 20px; }
-
-#care #care-container #section-2 #section-2-container #section-2-llama #llama-text-bubble #p1 {
-  padding: 30px 0; }
-
-#care #care-container #section-2 #section-2-container #section-2-llama #llama-text-bubble #p12 {
-  padding: 30px 0; }
-
-#care #care-container #section-2 #section-2-container #section-2-llama #llama-text-bubble #p3 {
-  padding: 30px 0; }
+      margin-left: 13vw; } }
+  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 {
+    padding-bottom: 30px;
+    padding-top: 30px; }
+    #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 #footstep-5 {
+      margin-left: 150px; }
+      @media (min-width: 768px) {
+        #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 #footstep-5 {
+          margin-left: 42vw; } }
+    #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 #footstep-6 {
+      margin-left: 20px; }
+      @media (min-width: 768px) {
+        #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-3 #footstep-6 {
+          margin-left: -8vw;
+          margin-bottom: -8vh; } }
+  @media (min-width: 768px) {
+    #care #care-container #section-1 #section-1-container #section-1-content #para-4 {
+      margin-left: 42vw;
+      margin-top: 7vh; } }
+  #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-4 {
+    padding-bottom: 30px;
+    padding-top: 30px; }
+    #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-4 #footstep-7 {
+      margin-left: 150px; }
+      @media (min-width: 768px) {
+        #care #care-container #section-1 #section-1-container #section-1-content #footsteps-group-4 #footstep-7 {
+          margin-left: 55vw;
+          margin-top: 3vh; } }
+  #care #care-container #section-1 #section-1-container #section-1-content #llama-2 {
+    margin-left: 80px;
+    margin-top: -70px;
+    padding-bottom: 30px; }
+    @media (min-width: 768px) {
+      #care #care-container #section-1 #section-1-container #section-1-content #llama-2 {
+        margin-left: 0;
+        margin-top: -35vh; } }
+    #care #care-container #section-1 #section-1-container #section-1-content #llama-2 #llama-brown {
+      width: 250px; }
+      @media (min-width: 768px) {
+        #care #care-container #section-1 #section-1-container #section-1-content #llama-2 #llama-brown {
+          width: 300px; } }
+      @media (min-width: 1200px) {
+        #care #care-container #section-1 #section-1-container #section-1-content #llama-2 #llama-brown {
+          width: 400px; } }
+  #care #care-container #section-1 #section-1-container #section-1-content #para-5 {
+    padding-bottom: 40px; }
+    @media (min-width: 768px) {
+      #care #care-container #section-1 #section-1-container #section-1-content #para-5 {
+        margin-left: 33vw;
+        margin-top: -2vh;
+        padding-bottom: 70px; } }
+    @media (min-width: 1200px) {
+      #care #care-container #section-1 #section-1-container #section-1-content #para-5 {
+        margin-left: 33vw;
+        margin-top: -22vh;
+        padding-bottom: 70px; } }
+  @media (min-width: 1200px) {
+    #care #care-container #section-2 {
+      padding-top: 100px; } }
+  @media (min-width: 768px) {
+    #care #care-container #section-2 #section-2-container #section-2-llama {
+      display: grid;
+      grid-template-columns: 40% auto;
+      grid-template-areas: "llama bubble"; } }
+  @media (min-width: 768px) {
+    #care #care-container #section-2 #section-2-container #section-2-llama #llama-winky-face {
+      grid-area: llama; } }
+  #care #care-container #section-2 #section-2-container #section-2-llama #llama-winky-face img {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 250px;
+    display: block;
+    margin: auto; }
+    @media (min-width: 768px) {
+      #care #care-container #section-2 #section-2-container #section-2-llama #llama-winky-face img {
+        width: 275px;
+        margin-top: 3vh;
+        margin-left: 0vw; } }
+    @media (min-width: 1200px) {
+      #care #care-container #section-2 #section-2-container #section-2-llama #llama-winky-face img {
+        width: 330px;
+        margin-top: 2vh;
+        margin-left: 7vw; } }
+  @media (min-width: 768px) {
+    #care #care-container #section-2 #section-2-container #section-2-llama #llama-text-bubble {
+      grid-area: bubble; } }
+  @media (min-width: 1200px) {
+    #care #care-container #section-2 #section-2-container #section-2-llama #llama-text-bubble {
+      padding-left: 70px; } }
+  #care #care-container #section-2 #section-2-container #section-2-llama #llama-text-bubble .bubble {
+    background-color: #FCD958;
+    padding: 20px;
+    border-radius: 20px; }
+  #care #care-container #section-2 #section-2-container #section-2-llama #llama-text-bubble #p1 {
+    padding: 30px 0; }
+  #care #care-container #section-2 #section-2-container #section-2-llama #llama-text-bubble #p12 {
+    padding: 30px 0; }
+  #care #care-container #section-2 #section-2-container #section-2-llama #llama-text-bubble #p3 {
+    padding: 30px 0; }
 
 #care-section-3 {
   padding: 30px 0; }

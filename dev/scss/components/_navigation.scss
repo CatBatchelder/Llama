@@ -1,3 +1,47 @@
 /* =============
     Navigation
 ============= */
+#main-nav {
+    background-color: $light-orange;
+    display: grid;
+    // display: none;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+
+    #nav-container {
+        #llama-illustration {
+            display: none;
+        }
+
+        #main-menu {
+            ul {
+                li {
+                    text-align: center;
+
+                    a:link, a:visited {
+                        font-family: 'Raleway', sans-serif;
+                        font-size: rem-calc(50);
+                        font-weight: 700;
+                        color: $dark-brown;
+                        text-decoration: none;
+                    }
+
+                    a:active, a:hover {
+                        transition: 0.25s;
+                        font-style: italic;
+                        color: $nav-orange;
+                        // border-bottom: 5px $nav-orange solid;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
