@@ -1,13 +1,13 @@
 //console.log("is konva working")
 
-var stageWidth = window.innerWidth;
-var stageHeight = window.innerHeight - 500;
+// var stageWidth = window.innerWidth;
+// var stageHeight = window.innerHeight - 500;
 
 // let's think our stage virtual size will be 1000x1000px
       // but the real size will be different to fit user's page
       // so the stage will be 100% visible on any device
-      // var stageWidth = 250;
-      // var stageHeight = 200;
+      var stageWidth = 250;
+      var stageHeight = 200;
 
       // function fitStageIntoParentContainer() {
       //   var container = document.querySelector('#stage-parent');
