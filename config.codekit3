@@ -181,6 +181,36 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/main-nav/arrow-lg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/main-nav/arrow-lg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/main-nav/arrow-md.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/main-nav/arrow-md.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/main-nav/llama-mascot-nav-tablet.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/main-nav/llama-mascot-nav-tablet.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -279,6 +309,14 @@
 		"oA": 1,
 		"oAP": "/dev/global/header.html",
 		"oF": 0
+		},
+	"/dev/global/main-nav.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/main-nav.html",
+		"oF": 1
 		},
 	"/dev/global/scripts.kit": {
 		"cB": 0,
@@ -537,9 +575,9 @@
 "projectAttributes": {
 	"creationDate": 619554119.65232003,
 	"displayValue": "Llama",
-	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets-pink",
-	"iconImageWasSetByUser": 1
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "brackets_orange",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
