@@ -1446,3 +1446,59 @@ footer #footer-image {
         #care-section-4 #steps-7-8 #step-7-container #step-7 p {
           margin-top: -5vh;
           margin-left: 8vw; } }
+#map-page {
+  display: grid;
+  grid-template-columns: 2.5% 60% 35% 2.5%;
+  grid-template-areas: ". a b .";
+  margin-bottom: 5%; }
+  #map-page #a {
+    grid-area: a; }
+    #map-page #a h1 {
+      color: #F1880B;
+      font-family: 'Raleway', sans-serif;
+      font-size: 55px;
+      font-weight: 500;
+      line-height: 50px;
+      padding-top: 130px; }
+    #map-page #a #map {
+      width: 100%;
+      height: 450px;
+      background-color: #fff; }
+      @media (min-width: 768px) {
+        #map-page #a #map {
+          height: 500px; } }
+      @media (min-width: 1200px) {
+        #map-page #a #map {
+          height: 600px; } }
+      @media (min-width: 1440px) {
+        #map-page #a #map {
+          height: 700px; } }
+    #map-page #a #button {
+      display: inline-block;
+      font: Raleway;
+      padding: 15px 25px;
+      margin-bottom: 5%;
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      cursor: pointer;
+      text-align: center;
+      outline: none;
+      color: #000;
+      background-color: #7CD7F4;
+      border: none;
+      border-radius: 35px; }
+    #map-page #a #button:hover {
+      background-color: #7CC6DE; }
+    #map-page #a #button:active {
+      color: #fff; }
+  #map-page #b {
+    grid-area: b;
+    margin-top: 65vh;
+    margin-left: 3%; }
+    #map-page #b img {
+      width: 200px; }
+      @media (min-width: 1200px) {
+        #map-page #b img {
+          margin-top: 150px;
+          width: 250px; } }

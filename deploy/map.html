@@ -68,40 +68,157 @@
                 </div>
             </div>
         </nav>
-      
-    <footer>
-                      <div id="footer-image">
-                          <section id="footer-content">
-                              <section id="footer-intro" class="xl">
-                                  <div>
-                                      <p class="body-text xs-spacing">Bring home your Llama today!</p>
-                                      <p class="body-text">Sign up for our weekly newsletter</p>
-                                  </div>
-                              </section>
-                  
-                              <section id="social-media" class="xl">
-                                  <div>
-                                      <p class="body-text xs-spacing">LlamaDrama</p>
-                                      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                      <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-                                      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                                  </div>
-                              </section>
-                          </section>
-                  
-                          <form action="#">
-                              <section>
-                                  <div>
-                                      <input type="text" placeholder="email@abc.com">
-                                  </div>
-                                  <div>
-                                      <button><i class="fas fa-paw"></i></button>
-                                  </div>
-                              </section>
-                          </form>
-                  
+      <section id="map-page">
+                  <div id="a">
+                      <h1 class="headline">Time to to Get One of Your Own</h1>
+                      <h2 class="subheadline">Adopt your own best friend for 20 years!</h2>
+                      <button id="button"><a>adoption form</a></button>
+                      <div id="map">
                       </div>
-                  </footer>
+                  </div>
+                  <div id="b">
+                      <h3 class="section-title">WoodsEdge Farm</h3>
+                      <p class="body-text">78 Bowne Station Road Stockton,</p>
+                      <p class="body-text">NJ, 08559, United States</p>
+                      <img id="arrow" src="img/map/arrow.svg" alt="yellow arrow">
+                  </div>
+              </section>
+
+    <footer>
+        <div id="footer-image">
+            <section id="footer-content">
+                <section id="footer-intro" class="xl">
+                    <div>
+                        <p class="body-text xs-spacing">Bring home your Llama today!</p>
+                        <p class="body-text">Sign up for our weekly newsletter</p>
+                    </div>
+                </section>
+    
+                <section id="social-media" class="xl">
+                    <div>
+                        <p class="body-text xs-spacing">LlamaDrama</p>
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </section>
+            </section>
+    
+            <form action="#">
+                <section>
+                    <div>
+                        <input type="text" placeholder="email@abc.com">
+                    </div>
+                    <div>
+                        <button><i class="fas fa-paw"></i></button>
+                    </div>
+                </section>
+            </form>
+    
+        </div>
+    </footer>
+
+     <script>
+// Initialize and add the map
+function initMap() {
+        // Styles a map in night mode.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 40.418703, lng: -74.918698},
+          zoom: 14,
+          hide:[{
+            featureType:
+            "road.highway",
+            stylers:[{
+              visibility: "off"
+            }]
+          }],
+          
+          styles: [
+            {elementType: 'geometry', stylers: [{color: '#F2E2D8'}]},
+            {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+            {
+              featureType: 'administrative.locality',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'geometry',
+              stylers: [{color: '#614B35'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#6b9a76'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry',
+              stylers: [{color: '#7C6B5E'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#7C6B5E'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#7C6B5E'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry',
+              stylers: [{color: '#7C6B5E'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#7C6B5E'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#7C6B5E'}]
+            },
+            {
+              featureType: 'transit',
+              elementType: 'geometry',
+              stylers: [{color: '#2f3948'}]
+            },
+            {
+              featureType: 'transit.station',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'geometry',
+              stylers: [{color: '#92A8D1'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#515c6d'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.stroke',
+              stylers: [{color: '#17263c'}]
+            }
+          ]
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGqmY8ZpIgLPaAS6sttrrJQLTF051FvJo&callback=initMap">
+    </script>
 
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
