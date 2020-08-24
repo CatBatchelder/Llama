@@ -1,13 +1,58 @@
 //console.log("is konva working")
 
-var width = window.innerWidth;
-var height = window.innerHeight - 25;
+var stageWidth = window.innerWidth;
+var stageHeight = window.innerHeight - 500;
+
+// let's think our stage virtual size will be 1000x1000px
+      // but the real size will be different to fit user's page
+      // so the stage will be 100% visible on any device
+      // var stageWidth = 250;
+      // var stageHeight = 200;
+
+      // function fitStageIntoParentContainer() {
+      //   var container = document.querySelector('#stage-parent');
+
+      //   // now we need to fit stage into parent
+      //   var containerWidth = container.offsetWidth;
+      //   // to do this we need to scale the stage
+      //   var scale = containerWidth / stageWidth;
+
+      //   stage.width(stageWidth * scale);
+      //   stage.height(stageHeight * scale);
+      //   stage.scale({ x: scale, y: scale });
+      //   stage.draw();
+      // }
+
+      // fitStageIntoParentContainer();
+      // // adapt the stage on any window resize
+      // window.addEventListener('resize', fitStageIntoParentContainer);
+
+      // function myFunction(md) {
+      //   if (md.matches) { // If media query matches
+      //     stageWidth = 577;
+      //     stageHeight = 469;
+      //   } else {
+      //     stageWidth = 300;
+      //     stageHeight = 244;
+      //   }
+      // }
+     
+      // var md = window.matchMedia("(max-width: 768px)")
+      // myFunction(md) // Call listener function at run time
+      // md.addListener(myFunction) // Attach listener function on state changes
+
 
 // first we need Konva core things: stage and layer
+// var stage = new Konva.Stage({
+//   container: 'container',
+//   width: width,
+//   height: height
+// });
+
 var stage = new Konva.Stage({
   container: 'container',
-  width: width,
-  height: height
+  width: stageWidth,
+  height: stageHeight
 });
 
 var layer = new Konva.Layer();
@@ -17,6 +62,11 @@ stage.add(layer);
 var canvas = document.createElement('canvas');
 canvas.width = stage.width();
 canvas.height = stage.height();
+
+//trying to change the height and width UPDATE: doesnt allow to draw
+// var canvas = document.createElement('canvas');
+// canvas.width = stage.width("400px");
+// canvas.height = stage.height("400px");
 
 // created canvas we can add to layer as "Konva.Image" element
 var image = new Konva.Image({
@@ -29,7 +79,7 @@ stage.draw();
 
 // Good. Now we need to get access to context element
 var context = canvas.getContext('2d');
-context.strokeStyle = '#df4b26';
+context.strokeStyle = '#F1880B';
 context.lineJoin = 'round';
 context.lineWidth = 5;
 

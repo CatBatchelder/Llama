@@ -94,4 +94,33 @@
          
         }
     }
+
+    #container{
+        background-image: url("../img/gallery/fred.jpg");
+        background-position: center;
+         height: 244px;
+        // width: 300px;
+        background-repeat: no-repeat;
+         background-size: contain;
+
+        @include md{
+            height: 469px;
+            // width: 577px;
+        }
+
+        @include lg{
+            height: 635px;
+            // width: 780px;
+        }
+
+        // .konvajs-content{
+        //     width: 400px;
+        //     height: 400px;
+
+        //     canvas{
+        //         width: 400px;
+        //         height: 400px;
+        //     }
+        // }
+    }
 }

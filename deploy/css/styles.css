@@ -1209,3 +1209,16 @@ textarea {
 
 #fred div img {
   width: 100%; }
+
+#fred #container {
+  background-image: url("../img/gallery/fred.jpg");
+  background-position: center;
+  height: 244px;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  @media (min-width: 768px) {
+    #fred #container {
+      height: 469px; } }
+  @media (min-width: 1200px) {
+    #fred #container {
+      height: 635px; } }
