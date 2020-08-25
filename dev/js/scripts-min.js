@@ -1,1 +1,0 @@
-function hideShowMainNav(){console.log("hide or show nav"),$("#main-nav").toggle()}$("#burger").on("click",hideShowMainNav),$("#main-nav li button").on("click",hideShowMainNav),$(document).ready(function(){$("#show-form-btn").on("click",function(){$("#contact-button-section").hide(),$("#form-container").show()})});
