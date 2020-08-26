@@ -338,6 +338,7 @@ ul {
   @media (min-width: 1200px) {
     .big-spacing {
       margin-bottom: 110px; } }
+
 .medium-spacing {
   margin-bottom: 30px; }
   @media (min-width: 768px) {
@@ -346,6 +347,7 @@ ul {
   @media (min-width: 1200px) {
     .medium-spacing {
       margin-bottom: 70px; } }
+
 .small-spacing {
   margin-bottom: 25px; }
   @media (min-width: 768px) {
@@ -354,11 +356,13 @@ ul {
   @media (min-width: 1200px) {
     .small-spacing {
       margin-bottom: 45px; } }
+
 .xs-spacing {
   margin-bottom: 10px; }
   @media (min-width: 1200px) {
     .xs-spacing {
       margin-bottom: 20px; } }
+
 .grid-container {
   display: grid;
   grid-template-areas: ". container .";
@@ -424,6 +428,7 @@ p {
       font-size: 70px;
       line-height: 86px;
       margin: 70px 0px 45px 0px; } }
+
 .subheadline {
   color: #6D4E35;
   font-family: 'Abhaya Libre', serif;
@@ -441,6 +446,7 @@ p {
       font-size: 30px;
       line-height: 35px;
       margin-bottom: 70px; } }
+
 .section-title {
   color: #93BC95;
   font-family: 'Raleway', sans-serif;
@@ -452,6 +458,7 @@ p {
   @media (min-width: 1200px) {
     .section-title {
       font-size: 45px; } }
+
 .msg-title {
   color: #6D4E35;
   font-family: 'Raleway', sans-serif;
@@ -463,6 +470,7 @@ p {
   @media (min-width: 1200px) {
     .msg-title {
       font-size: 25px; } }
+
 .card-title {
   color: #6D4E35;
   font-family: 'Raleway', sans-serif;
@@ -477,6 +485,7 @@ p {
     .card-title {
       font-size: 25px;
       padding: 45px 0px 20px 0px; } }
+
 .body-text {
   color: #6D4E35;
   font-family: 'Raleway', sans-serif;
@@ -487,6 +496,7 @@ p {
     .body-text {
       font-size: 18px;
       line-height: 22px; } }
+
 .body-text-2 {
   color: #7C6B5E;
   font-family: 'Raleway', sans-serif;
@@ -497,6 +507,7 @@ p {
     .body-text-2 {
       font-size: 18px;
       line-height: 22px; } }
+
 .body-text-3 {
   color: #3E3E3E;
   font-family: 'Raleway', sans-serif;
@@ -507,6 +518,7 @@ p {
     .body-text-3 {
       font-size: 18px;
       line-height: 22px; } }
+
 /* =============
     Buttons
 ============= */
@@ -562,7 +574,15 @@ textarea {
   right: 0;
   width: 100%;
   height: 100vh;
-  z-index: 999; }
+  padding-top: 20%;
+  z-index: 999;
+  padding-top: 35%; }
+  @media (min-width: 768px) {
+    #main-nav {
+      padding-top: 25%; } }
+  @media (min-width: 1200px) {
+    #main-nav {
+      padding-top: 15%; } }
   @media (min-width: 768px) {
     #main-nav #nav-container {
       display: grid;
@@ -809,6 +829,7 @@ footer #footer-image {
   @media (min-width: 1200px) {
     #index > div img {
       height: 90vh; } }
+
 #index > div #introduction img {
   height: 80px;
   object-fit: contain;
@@ -822,6 +843,7 @@ footer #footer-image {
     #index > div #introduction img {
       height: 135px;
       width: 135px; } }
+
 #index > div #introduction > div h3 {
   background-color: #FCD958;
   border-radius: 20px;
@@ -830,6 +852,7 @@ footer #footer-image {
     #index > div #introduction > div h3 {
       border-radius: 33.5px;
       padding: 28px 20px; } }
+
 #index > div #introduction > div p {
   padding: 0px 20px;
   text-align: justify; }
@@ -897,6 +920,7 @@ footer #footer-image {
   @media (min-width: 1200px) {
     #index > div #personality > div #personality-intro h4 {
       font-size: 25px; } }
+
 @media (min-width: 768px) {
   #index > div #personality > div #cards-section {
     column-gap: 20px;
@@ -948,6 +972,7 @@ footer #footer-image {
     #index > div #personality > div .cards {
       border-radius: 20px;
       padding: 45px 35px; } }
+
 #care {
   padding-top: 80px; }
   #care #care-container #section-1 #section-1-container #section1-header h1 {
@@ -1160,6 +1185,7 @@ footer #footer-image {
       #care-section-3 #image {
         height: 810px;
         background-position-y: -100px; } }
+
 #care-section-4 {
   padding-bottom: 70px; }
   @media (min-width: 768px) {
@@ -1517,3 +1543,60 @@ footer #footer-image {
   @media (min-width: 1200px) {
     #fred #container {
       height: 635px; } }
+
+#map-page {
+  display: grid;
+  grid-template-columns: 2.5% 60% 35% 2.5%;
+  grid-template-areas: ". a b .";
+  margin-bottom: 5%; }
+  #map-page #a {
+    grid-area: a; }
+    #map-page #a h1 {
+      color: #F1880B;
+      font-family: 'Raleway', sans-serif;
+      font-size: 55px;
+      font-weight: 500;
+      line-height: 50px;
+      padding-top: 130px; }
+    #map-page #a #map {
+      width: 100%;
+      height: 450px;
+      background-color: #fff; }
+      @media (min-width: 768px) {
+        #map-page #a #map {
+          height: 500px; } }
+      @media (min-width: 1200px) {
+        #map-page #a #map {
+          height: 600px; } }
+      @media (min-width: 1440px) {
+        #map-page #a #map {
+          height: 700px; } }
+    #map-page #a #button {
+      display: inline-block;
+      font: Raleway;
+      padding: 15px 25px;
+      margin-bottom: 5%;
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      cursor: pointer;
+      text-align: center;
+      outline: none;
+      color: #000;
+      background-color: #7CD7F4;
+      border: none;
+      border-radius: 35px; }
+    #map-page #a #button:hover {
+      background-color: #7CC6DE; }
+    #map-page #a #button:active {
+      color: #fff; }
+  #map-page #b {
+    grid-area: b;
+    margin-top: 65vh;
+    margin-left: 3%; }
+    #map-page #b img {
+      width: 200px; }
+      @media (min-width: 1200px) {
+        #map-page #b img {
+          margin-top: 150px;
+          width: 250px; } }

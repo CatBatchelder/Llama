@@ -3,9 +3,6 @@
 ============= */
 #main-nav {
     background-color: $light-orange;
-
-    //switch between display none and grid for preview
-    // display: grid;
     display: none;
 
     place-items: center;
@@ -16,7 +13,15 @@
     right: 0;
     width: 100%;
     height: 100vh;
+    padding-top: 20%;
     z-index: 999;
+    padding-top: 35%;
+    @include md{
+    padding-top: 25%;
+    }
+    @include lg{
+    padding-top: 15%;
+    }
 
     #nav-container {
         @include md {
