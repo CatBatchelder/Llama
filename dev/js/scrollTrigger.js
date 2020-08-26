@@ -119,8 +119,16 @@ ScrollTrigger.create({
 /* =============
     Care
 ============= */
+console.log("page loads");
+
+var careTitleTimeLine = gsap.timeline();
+var bannerSpeed = 1;
+
+careTitleTimeLine.from("#section1-header h1", {duration:bannerSpeed, xPercent: 10, alpha: 0}, "pageLoads")
+                 .from("#section1-header h2", {duration:bannerSpeed, yPercent: -10, alpha: 0}, "pageLoads")
 
 
+careTitleTimeLine.play();
 
 
 
