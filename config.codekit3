@@ -35,52 +35,52 @@
 		"oAP": "/deploy/gallery.html",
 		"oF": 0
 		},
-	"/deploy/img/care/arrow.svg": {
+	"/deploy/img/Care/arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/care/arrow.svg",
+		"oAP": "/deploy/img/Care/arrow.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/care/care.jpg": {
+	"/deploy/img/Care/care.jpg": {
 		"ft": 16384,
 		"iS": 429019,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/care/care.jpg",
+		"oAP": "/deploy/img/Care/care.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/care/llama-mascot-brown.svg": {
+	"/deploy/img/Care/llama-mascot-brown.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/care/llama-mascot-brown.svg",
+		"oAP": "/deploy/img/Care/llama-mascot-brown.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/care/llama-mascot.svg": {
+	"/deploy/img/Care/llama-mascot.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/care/llama-mascot.svg",
+		"oAP": "/deploy/img/Care/llama-mascot.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/care/wink-llama.svg": {
+	"/deploy/img/Care/wink-llama.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/care/wink-llama.svg",
+		"oAP": "/deploy/img/Care/wink-llama.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -92,6 +92,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/footer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/fred-2.jpg": {
+		"ft": 16384,
+		"iS": 43612,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/fred-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -196,85 +207,85 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/home/card-1.jpg": {
+	"/deploy/img/Home/card-1.jpg": {
 		"ft": 16384,
 		"iS": 388637,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/home/card-1.jpg",
+		"oAP": "/deploy/img/Home/card-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/home/card-2.jpg": {
+	"/deploy/img/Home/card-2.jpg": {
 		"ft": 16384,
 		"iS": 390021,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/home/card-2.jpg",
+		"oAP": "/deploy/img/Home/card-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/home/card-3.jpg": {
+	"/deploy/img/Home/card-3.jpg": {
 		"ft": 16384,
 		"iS": 161383,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/home/card-3.jpg",
+		"oAP": "/deploy/img/Home/card-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/home/confused-llama.svg": {
+	"/deploy/img/Home/confused-llama.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/home/confused-llama.svg",
+		"oAP": "/deploy/img/Home/confused-llama.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/home/friendly-llama.svg": {
+	"/deploy/img/Home/friendly-llama.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/home/friendly-llama.svg",
+		"oAP": "/deploy/img/Home/friendly-llama.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/home/main-hero.jpg": {
+	"/deploy/img/Home/main-hero.jpg": {
 		"ft": 16384,
 		"iS": 310734,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/home/main-hero.jpg",
+		"oAP": "/deploy/img/Home/main-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/home/shocked-llama.svg": {
+	"/deploy/img/Home/shocked-llama.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/home/shocked-llama.svg",
+		"oAP": "/deploy/img/Home/shocked-llama.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/home/wink-llama.svg": {
+	"/deploy/img/Home/wink-llama.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/home/wink-llama.svg",
+		"oAP": "/deploy/img/Home/wink-llama.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -425,7 +436,7 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/global/main-nav.html",
-		"oF": 1
+		"oF": 0
 		},
 	"/dev/global/scripts.kit": {
 		"cB": 0,
@@ -461,7 +472,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/main-nav/burger-click-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -472,7 +483,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/main-nav/main-nav-click-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -483,7 +494,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/main-nav/nav-global-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -748,11 +759,11 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 619554119,
+	"creationDate": 619554119.65232003,
 	"displayValue": "Llama",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-pale",
-	"iconImageWasSetByUser": 1
+	"iconImageName": "brackets_orange",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1190,11 +1201,11 @@
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8193,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
-			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false, 'enforceForClassMembers': true}"
 			},
 		"array-bracket-newline": {
 			"active": 0,
@@ -1242,7 +1253,7 @@
 			},
 		"camelcase": {
 			"active": 0,
-			"optionString": "{'properties': 'always'}"
+			"optionString": "{'properties': 'always', 'ignoreDestructuring': false, 'ignoreImports': false}"
 			},
 		"capitalized-comments": {
 			"active": 0,
@@ -1270,7 +1281,7 @@
 			},
 		"computed-property-spacing": {
 			"active": 0,
-			"optionString": "'never'"
+			"optionString": "'never', {'enforceForClassMembers': true}"
 			},
 		"consistent-return": {
 			"active": 0,
@@ -1326,11 +1337,11 @@
 			},
 		"func-name-matching": {
 			"active": 0,
-			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			"optionString": "'always', {'considerPropertyDescriptor': false, 'includeCommonJSModuleExports': false}"
 			},
 		"func-names": {
 			"active": 0,
-			"optionString": "'always'"
+			"optionString": "'always', {'generators': 'always'}"
 			},
 		"func-style": {
 			"active": 0,
@@ -1374,7 +1385,7 @@
 			},
 		"id-match": {
 			"active": 0,
-			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true, 'ignoreDestructuring': false}"
 			},
 		"implicit-arrow-linebreak": {
 			"active": 0,
@@ -1466,7 +1477,7 @@
 			},
 		"new-parens": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "'always'"
 			},
 		"newline-per-chained-call": {
 			"active": 0,
@@ -1518,10 +1529,10 @@
 			},
 		"no-confusing-arrow": {
 			"active": 0,
-			"optionString": "{'allowParens': false}"
+			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
@@ -1626,7 +1637,7 @@
 			},
 		"no-extra-parens": {
 			"active": 0,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false, 'enforceForSequenceExpressions': false, 'enforceForNewInMemberExpressions': false}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -1678,7 +1689,7 @@
 			},
 		"no-invalid-this": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'capIsConstructor': true}"
 			},
 		"no-irregular-whitespace": {
 			"active": 1,
@@ -1866,7 +1877,7 @@
 			},
 		"no-self-assign": {
 			"active": 1,
-			"optionString": "{'props': false}"
+			"optionString": "{'props': true}"
 			},
 		"no-self-compare": {
 			"active": 0,
@@ -1898,7 +1909,7 @@
 			},
 		"no-tabs": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{allowIndentationTabs: false}"
 			},
 		"no-template-curly-in-string": {
 			"active": 0,
@@ -1934,7 +1945,7 @@
 			},
 		"no-underscore-dangle": {
 			"active": 0,
-			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
 			"active": 1,
@@ -1958,7 +1969,7 @@
 			},
 		"no-unsafe-negation": {
 			"active": 1,
-			"optionString": ""
+			"optionString": "{'enforceForOrderingRelations': false}"
 			},
 		"no-unused-expressions": {
 			"active": 0,
@@ -1990,7 +2001,7 @@
 			},
 		"no-useless-computed-key": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'enforceForClassMembers': false}"
 			},
 		"no-useless-concat": {
 			"active": 0,
@@ -2038,7 +2049,7 @@
 			},
 		"object-curly-newline": {
 			"active": 0,
-			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			"optionString": "{'ObjectExpression': {'multiline': true, 'consistent': true}, 'ObjectPattern': {'multiline': true, 'consistent': true}}"
 			},
 		"object-curly-spacing": {
 			"active": 0,
@@ -2178,7 +2189,7 @@
 			},
 		"sort-keys": {
 			"active": 0,
-			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false, 'minKeys': 2}"
 			},
 		"sort-vars": {
 			"active": 0,
@@ -2234,7 +2245,7 @@
 			},
 		"use-isnan": {
 			"active": 1,
-			"optionString": ""
+			"optionString": "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
 			},
 		"valid-jsdoc": {
 			"active": 0,
@@ -2269,7 +2280,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "",
+	"jsCheckerReservedNamesString": "Konva, gsap, ScrollTrigger",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
@@ -2833,7 +2844,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"pluginMask": 3758088159
+		"pluginMask": 52780316221407
 		},
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
@@ -2946,7 +2957,7 @@
 			"flagValue": -1
 			},
 		"dead_code": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"directives": {
@@ -2978,7 +2989,7 @@
 			"flagValue": -1
 			},
 		"hoist_funs": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"hoist_props": {
@@ -3022,7 +3033,7 @@
 			"flagValue": -1
 			},
 		"keep_fargs": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"keep_fnames": {
@@ -3150,7 +3161,7 @@
 			"flagValue": -1
 			},
 		"unused": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"warnings": {
@@ -3167,7 +3178,7 @@
 			}
 		},
 	"uglifyMangleNames": 1,
-	"uglifyReservedNamesString": "$",
+	"uglifyReservedNamesString": "$,exports,require",
 	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "3"
