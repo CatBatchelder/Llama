@@ -518,7 +518,8 @@ p {
   font-size: 16px;
   font-weight: 400;
   justify-items: center;
-  padding: 13px 30px; }
+  padding: 13px 30px;
+  cursor: pointer; }
   @media (min-width: 1200px) {
     .button {
       font-size: 20px;
@@ -1514,6 +1515,19 @@ footer #footer-image {
       text-align: center; }
     #fred div img {
       width: 100%; }
+  #fred #tool {
+    font-size: 16px;
+    font-weight: 400;
+    color: #3E3E3E;
+    background-color: #7CD7F4;
+    border-radius: 36.5px;
+    font-family: 'Raleway', sans-serif;
+    padding: 13px 30px;
+    cursor: pointer; }
+    @media (min-width: 1200px) {
+      #fred #tool {
+        font-size: 20px;
+        padding: 16px 40px; } }
   #fred #container {
     background-image: url("../img/gallery/fred-2.jpg");
     background-position: center;
