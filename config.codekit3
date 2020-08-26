@@ -725,8 +725,8 @@
 	"creationDate": 619554119,
 	"displayValue": "Llama",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_orange",
-	"iconImageWasSetByUser": 0
+	"iconImageName": "brackets-pale",
+	"iconImageWasSetByUser": 1
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
