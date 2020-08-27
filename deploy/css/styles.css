@@ -518,7 +518,8 @@ p {
   font-size: 16px;
   font-weight: 400;
   justify-items: center;
-  padding: 13px 30px; }
+  padding: 13px 30px;
+  cursor: pointer; }
   @media (min-width: 1200px) {
     .button {
       font-size: 20px;
@@ -1462,7 +1463,7 @@ footer #footer-image {
 #gallery {
   padding-top: 100px; }
   #gallery div h6 {
-    text-align: right; }
+    text-align: left; }
   #gallery div ul {
     display: grid;
     grid-template-columns: 50% auto;
@@ -1498,34 +1499,47 @@ footer #footer-image {
     @media (min-width: 768px) {
       #gallery div ul li:nth-child(8) {
         grid-area: g8; } }
-@media (min-width: 1200px) {
-  #fred {
-    display: grid;
-    grid-template-areas: ". container .";
-    grid-template-columns: auto 800px auto; } }
-
-@media (min-width: 1200px) {
-  #fred div {
-    grid-area: container; } }
-
-#fred div h6 {
-  text-align: center; }
-
-#fred div img {
-  width: 100%; }
-
-#fred #container {
-  background-image: url("../img/gallery/fred.jpg");
-  background-position: center;
-  height: 244px;
-  background-repeat: no-repeat;
-  background-size: contain; }
-  @media (min-width: 768px) {
-    #fred #container {
-      height: 469px; } }
+#fred {
+  overflow: hidden; }
   @media (min-width: 1200px) {
-    #fred #container {
-      height: 635px; } }
+    #fred {
+      display: grid;
+      grid-template-areas: ". container .";
+      grid-template-columns: auto 800px auto; } }
+  #fred div {
+    overflow: hidden; }
+    @media (min-width: 1200px) {
+      #fred div {
+        grid-area: container; } }
+    #fred div h6 {
+      text-align: center; }
+    #fred div img {
+      width: 100%; }
+  #fred #tool {
+    font-size: 16px;
+    font-weight: 400;
+    color: #3E3E3E;
+    background-color: #7CD7F4;
+    border-radius: 36.5px;
+    font-family: 'Raleway', sans-serif;
+    padding: 13px 30px;
+    cursor: pointer; }
+    @media (min-width: 1200px) {
+      #fred #tool {
+        font-size: 20px;
+        padding: 16px 40px; } }
+  #fred #container {
+    background-image: url("../img/gallery/fred-2.jpg");
+    background-position: center;
+    height: 244px;
+    background-repeat: no-repeat;
+    background-size: contain; }
+    @media (min-width: 768px) {
+      #fred #container {
+        height: 469px; } }
+    @media (min-width: 1200px) {
+      #fred #container {
+        height: 635px; } }
 #map-page {
   display: grid;
   grid-template-columns: 2.5% 60% 35% 2.5%;

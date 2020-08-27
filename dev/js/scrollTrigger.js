@@ -120,3 +120,38 @@ ScrollTrigger.create({
     Care
 ============= */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============
+    Gallery
+============= */
+
+
+// fred //
+var fredTimeline = gsap.timeline();
+fredTimeline.from("#fred", {
+  duration: 1,
+  alpha: 0,
+  yPercent: 50
+})
+
+ScrollTrigger.create({
+  trigger: "#fred",
+  start: "top 90%",
+  animation: fredTimeline
+   //markers: true
+
+});

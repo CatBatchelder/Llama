@@ -3,7 +3,9 @@
 ============= */
 #main-nav {
     background-color: $light-orange;
+
     display: none;
+    // display: grid;
 
     place-items: center;
     position: fixed;

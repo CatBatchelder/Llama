@@ -5,7 +5,7 @@
 
         }
         h6{
-            text-align: right;
+            text-align: left;
         }
         ul{
             display: grid;
@@ -76,7 +76,12 @@
     }
 }
 
+
+
 #fred{
+    
+overflow: hidden;
+
     @include lg{
         display: grid;
         grid-template-areas: ". container .";
@@ -84,6 +89,7 @@
     
     }
     div{
+        overflow: hidden;
         @include lg{
             grid-area: container;
         }
@@ -96,8 +102,32 @@
         }
     }
 
+
+#tool{
+    font-size: 16px;
+	font-weight: 400;
+        color: $dark-gray;
+        background-color: $light-blue;
+        border-radius: 36.5px;
+        // width: 120px;
+        // height: 30px;
+        //border: 1px solid #999;
+        font-family: 'Raleway', sans-serif;
+        padding: 13px 30px;
+        cursor: pointer;
+
+        @include lg {
+            font-size: 20px;
+            padding: 16px 40px;
+        }
+}
+
+
+    
+
+   
     #container{
-        background-image: url("../img/gallery/fred.jpg");
+        background-image: url("../img/gallery/fred-2.jpg");
         background-position: center;
          height: 244px;
         // width: 300px;
