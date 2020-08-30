@@ -1,4 +1,3 @@
-
 /* =============
     Homepage
 ============= */
@@ -16,8 +15,8 @@ ScrollTrigger.create({
   end: "bottom 90%",
   animation: leftHomeTimeline,
   toggleActions: "resume none none none",
-//   id: "#lefthome",
-//   markers: true,
+  //   id: "#lefthome",
+  //   markers: true,
   scrub: 1
 });
 
@@ -34,8 +33,8 @@ ScrollTrigger.create({
   end: "bottom 80%",
   animation: rightHomeTimeline,
   toggleActions: "resume none none none",
-//   id: "#lefthome",
-//   markers: true,
+  //   id: "#lefthome",
+  //   markers: true,
   scrub: 1
 });
 
@@ -52,8 +51,8 @@ ScrollTrigger.create({
   end: "bottom 50%",
   animation: leftTwoHomeTimeline,
   toggleActions: "resume none none none",
-//   id: "#lefthome",
-//   markers: true,
+  //   id: "#lefthome",
+  //   markers: true,
   scrub: 1
 });
 
@@ -70,8 +69,8 @@ ScrollTrigger.create({
   end: "bottom 40%",
   animation: rightTwoHomeTimeline,
   toggleActions: "resume none none none",
-//   id: "#lefthome",
-//   markers: true,
+  //   id: "#lefthome",
+  //   markers: true,
   scrub: 1
 });
 
@@ -89,8 +88,8 @@ ScrollTrigger.create({
   end: "bottom 80%",
   animation: cardPhotoTimeline,
   toggleActions: "resume none none none",
-//   id: "#lefthome",
-//   markers: true,
+  //   id: "#lefthome",
+  //   markers: true,
   scrub: 1
 });
 
@@ -108,8 +107,8 @@ ScrollTrigger.create({
   end: "bottom 80%",
   animation: cardWordsTimeline,
   toggleActions: "resume none none none",
-//   id: "#lefthome",
-//   markers: true,
+  //   id: "#lefthome",
+  //   markers: true,
   scrub: 1
 });
 
@@ -127,16 +126,32 @@ console.log("page loads");
 var careTitleTimeLine = gsap.timeline();
 var bannerSpeed = 1.5;
 
-careTitleTimeLine.from("#section1-header h1", {duration:bannerSpeed, xPercent: 40, alpha: 0}, "pageLoads")
-                 .from("#section1-header h2", {duration:bannerSpeed, yPercent: -100, alpha: 0}, "pageLoads")
-                 .from("#arrow-1", {duration:1, rotation: 270, alpha: 0}, "arrow")
+careTitleTimeLine.from("#section1-header h1", {
+    duration: bannerSpeed,
+    xPercent: 40,
+    alpha: 0
+  }, "pageLoads")
+  .from("#section1-header h2", {
+    duration: bannerSpeed,
+    yPercent: -100,
+    alpha: 0
+  }, "pageLoads")
+  .from("#arrow-1", {
+    duration: 1,
+    rotation: 270,
+    alpha: 0
+  }, "arrow")
 
 careTitleTimeLine.play();
 
 //para1
 var carePara1TimeLine = gsap.timeline();
 
-carePara1TimeLine.from("#para-1", {duration: bannerSpeed, alpha: 0, xPercent:-50}, "para1")
+carePara1TimeLine.from("#para-1", {
+  duration: bannerSpeed,
+  alpha: 0,
+  xPercent: -50
+}, "para1")
 
 ScrollTrigger.create({
   trigger: "#section-1-content",
@@ -152,7 +167,11 @@ ScrollTrigger.create({
 //cream llama
 var careLlama1TimeLine = gsap.timeline();
 
-careLlama1TimeLine.from("#llama-cream", {duration: bannerSpeed, alpha: 0, xPercent: 100}, "llamaCream")
+careLlama1TimeLine.from("#llama-cream", {
+  duration: bannerSpeed,
+  alpha: 0,
+  xPercent: 100
+}, "llamaCream")
 
 ScrollTrigger.create({
   trigger: "#llama-cream",
@@ -169,9 +188,20 @@ ScrollTrigger.create({
 //footsteps group1
 var careFootstepsGroup1TimeLine = gsap.timeline();
 
-careFootstepsGroup1TimeLine.from("#footstep-1", {duration: 0.75, alpha: 0}, "footstep1")
-                           .from("#footstep-2", {duration: 0.75, alpha: 0, yPercent:-50}, "footstep2")
-                           .from("#footstep-3", {duration: 0.75, alpha: 0, yPercent:-50}, "footstep3")
+careFootstepsGroup1TimeLine.from("#footstep-1", {
+    duration: 0.75,
+    alpha: 0
+  }, "footstep1")
+  .from("#footstep-2", {
+    duration: 0.75,
+    alpha: 0,
+    yPercent: -50
+  }, "footstep2")
+  .from("#footstep-3", {
+    duration: 0.75,
+    alpha: 0,
+    yPercent: -50
+  }, "footstep3")
 
 ScrollTrigger.create({
   trigger: "#footstep-1",
@@ -188,7 +218,11 @@ ScrollTrigger.create({
 //para2
 var carePara2TimeLine = gsap.timeline();
 
-carePara2TimeLine.from("#para-2", {duration: bannerSpeed, alpha: 0, yPercent:-50}, "para2")
+carePara2TimeLine.from("#para-2", {
+  duration: bannerSpeed,
+  alpha: 0,
+  yPercent: -50
+}, "para2")
 
 ScrollTrigger.create({
   trigger: "#para-2",
@@ -204,7 +238,10 @@ ScrollTrigger.create({
 //footsteps group2
 var careFootstepsGroup2TimeLine = gsap.timeline();
 
-careFootstepsGroup2TimeLine.from("#footstep-4", {duration: 0.75, alpha: 0}, "footstep4")
+careFootstepsGroup2TimeLine.from("#footstep-4", {
+  duration: 0.75,
+  alpha: 0
+}, "footstep4")
 
 ScrollTrigger.create({
   trigger: "#footstep-4",
@@ -220,7 +257,11 @@ ScrollTrigger.create({
 //para3
 var carePara3TimeLine = gsap.timeline();
 
-carePara3TimeLine.from("#para-3", {duration: bannerSpeed, alpha: 0, yPercent:-50}, "para3")
+carePara3TimeLine.from("#para-3", {
+  duration: bannerSpeed,
+  alpha: 0,
+  yPercent: -50
+}, "para3")
 
 ScrollTrigger.create({
   trigger: "#para-3",
@@ -237,8 +278,15 @@ ScrollTrigger.create({
 //footsteps group3
 var careFootstepsGroup3TimeLine = gsap.timeline();
 
-careFootstepsGroup3TimeLine.from("#footstep-5", {duration: 0.75, alpha: 0}, "footstep5")
-                           .from("#footstep-6", {duration: 0.75, alpha: 0, yPercent:-50}, "footstep6")
+careFootstepsGroup3TimeLine.from("#footstep-5", {
+    duration: 0.75,
+    alpha: 0
+  }, "footstep5")
+  .from("#footstep-6", {
+    duration: 0.75,
+    alpha: 0,
+    yPercent: -50
+  }, "footstep6")
 
 ScrollTrigger.create({
   trigger: "#footstep-5",
@@ -254,7 +302,11 @@ ScrollTrigger.create({
 //para4
 var carePara4TimeLine = gsap.timeline();
 
-carePara4TimeLine.from("#para-4", {duration: bannerSpeed, alpha: 0, xPercent:50}, "para4")
+carePara4TimeLine.from("#para-4", {
+  duration: bannerSpeed,
+  alpha: 0,
+  xPercent: 50
+}, "para4")
 
 ScrollTrigger.create({
   trigger: "#para-4",
@@ -271,7 +323,10 @@ ScrollTrigger.create({
 //footsteps group4
 var careFootstepsGroup4TimeLine = gsap.timeline();
 
-careFootstepsGroup4TimeLine.from("#footstep-7", {duration: 0.75, alpha: 0}, "footstep7")
+careFootstepsGroup4TimeLine.from("#footstep-7", {
+  duration: 0.75,
+  alpha: 0
+}, "footstep7")
 
 ScrollTrigger.create({
   trigger: "#footstep-7",
@@ -288,7 +343,11 @@ ScrollTrigger.create({
 //brown llama
 var careLlama2TimeLine = gsap.timeline();
 
-careLlama2TimeLine.from("#llama-brown", {duration: bannerSpeed, alpha: 0, xPercent: -70}, "llamaBrown")
+careLlama2TimeLine.from("#llama-brown", {
+  duration: bannerSpeed,
+  alpha: 0,
+  xPercent: -70
+}, "llamaBrown")
 
 ScrollTrigger.create({
   trigger: "#llama-brown",
@@ -305,7 +364,11 @@ ScrollTrigger.create({
 //para5
 var carePara5TimeLine = gsap.timeline();
 
-carePara5TimeLine.from("#para-5", {duration: bannerSpeed, alpha: 0, yPercent:50}, "para5")
+carePara5TimeLine.from("#para-5", {
+  duration: bannerSpeed,
+  alpha: 0,
+  yPercent: 50
+}, "para5")
 
 ScrollTrigger.create({
   trigger: "#para-5",
@@ -313,10 +376,58 @@ ScrollTrigger.create({
   // end: "bottom 90%",
   animation: carePara5TimeLine,
   toggleActions: "play none none none",
-  markers: true,
+  // markers: true,
   // scrub: 1,
   id: "care-paragraph5"
 });
+
+
+//section 2 and 3
+var careSection2TimeLine = gsap.timeline();
+
+careSection2TimeLine.from("#section-2-title", {
+    duration: bannerSpeed,
+    yPercemt: -100,
+    alpha: 0
+  }, "title")
+  .from("#llama-winky-face", {
+    duration: 2,
+    xPercent: -100,
+    alpha: 0
+  }, "llamaFace")
+  .from(".bubble", {
+    duration: bannerSpeed,
+    alpha: 0
+  }, "llamaFace")
+
+
+ScrollTrigger.create({
+  trigger: "#section-2-title",
+  start: "top 50%",
+  // end: "bottom 90%",
+  animation: careSection2TimeLine,
+  toggleActions: "play none none none",
+  // markers: true,
+  // scrub: 1,
+  id: "section2"
+});
+
+var careSection3TimeLine = gsap.timeline();
+
+careSection3TimeLine.from("#care-section-3 #image", {duration: bannerSpeed, alpha: 0}, "llamaBrownSection3")
+
+ScrollTrigger.create({
+  trigger: "#care-section-3",
+  start: "top 30%",
+  // end: "bottom 90%",
+  animation: careSection3TimeLine,
+  toggleActions: "play none none none",
+  markers: true,
+  // scrub: 1,
+  id: "section3"
+});
+
+
 
 
 
@@ -349,6 +460,6 @@ ScrollTrigger.create({
   trigger: "#fred",
   start: "top 90%",
   animation: fredTimeline
-   //markers: true
+  //markers: true
 
 });
