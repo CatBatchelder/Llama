@@ -35,52 +35,52 @@
 		"oAP": "/deploy/gallery.html",
 		"oF": 0
 		},
-	"/deploy/img/care/arrow.svg": {
+	"/deploy/img/Care/arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/care/arrow.svg",
+		"oAP": "/deploy/img/Care/arrow.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/care/care.jpg": {
+	"/deploy/img/Care/care.jpg": {
 		"ft": 16384,
 		"iS": 429019,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/care/care.jpg",
+		"oAP": "/deploy/img/Care/care.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/care/llama-mascot-brown.svg": {
+	"/deploy/img/Care/llama-mascot-brown.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/care/llama-mascot-brown.svg",
+		"oAP": "/deploy/img/Care/llama-mascot-brown.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/care/llama-mascot.svg": {
+	"/deploy/img/Care/llama-mascot.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/care/llama-mascot.svg",
+		"oAP": "/deploy/img/Care/llama-mascot.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/care/wink-llama.svg": {
+	"/deploy/img/Care/wink-llama.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/care/wink-llama.svg",
+		"oAP": "/deploy/img/Care/wink-llama.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -207,85 +207,85 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/home/card-1.jpg": {
+	"/deploy/img/Home/card-1.jpg": {
 		"ft": 16384,
 		"iS": 388637,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/home/card-1.jpg",
+		"oAP": "/deploy/img/Home/card-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/home/card-2.jpg": {
+	"/deploy/img/Home/card-2.jpg": {
 		"ft": 16384,
 		"iS": 390021,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/home/card-2.jpg",
+		"oAP": "/deploy/img/Home/card-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/home/card-3.jpg": {
+	"/deploy/img/Home/card-3.jpg": {
 		"ft": 16384,
 		"iS": 161383,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/home/card-3.jpg",
+		"oAP": "/deploy/img/Home/card-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/home/confused-llama.svg": {
+	"/deploy/img/Home/confused-llama.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/home/confused-llama.svg",
+		"oAP": "/deploy/img/Home/confused-llama.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/home/friendly-llama.svg": {
+	"/deploy/img/Home/friendly-llama.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/home/friendly-llama.svg",
+		"oAP": "/deploy/img/Home/friendly-llama.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/home/main-hero.jpg": {
+	"/deploy/img/Home/main-hero.jpg": {
 		"ft": 16384,
 		"iS": 310734,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/home/main-hero.jpg",
+		"oAP": "/deploy/img/Home/main-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/home/shocked-llama.svg": {
+	"/deploy/img/Home/shocked-llama.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/home/shocked-llama.svg",
+		"oAP": "/deploy/img/Home/shocked-llama.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/home/wink-llama.svg": {
+	"/deploy/img/Home/wink-llama.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/deploy/img/home/wink-llama.svg",
+		"oAP": "/deploy/img/Home/wink-llama.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -469,7 +469,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/js/konva-min.js",
 		"oF": 0,
 		"sC": 3,

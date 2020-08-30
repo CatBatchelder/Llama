@@ -6,6 +6,8 @@
 // @codekit-prepend "main-nav/burger-click.js";
 // @codekit-prepend "main-nav/main-nav-click.js";
 
+// @codekit-prepend "konva.js";
+
 $( document ).ready(function() {
 
     $("#show-form-btn").on("click", function(){
