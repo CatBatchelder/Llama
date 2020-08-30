@@ -419,24 +419,76 @@ careSection3TimeLine.from("#care-section-3 #image", {duration: bannerSpeed, alph
 ScrollTrigger.create({
   trigger: "#care-section-3",
   start: "top 30%",
-  // end: "bottom 90%",
+  end: "bottom 60%",
   animation: careSection3TimeLine,
   toggleActions: "play none none none",
-  markers: true,
-  // scrub: 1,
+  // markers: true,
+  scrub: 1,
   id: "section3"
 });
 
 
+//section4
 
+var careSteps12TimeLine = gsap.timeline();
 
+careSteps12TimeLine.from("#steps-1-2 .step-numbers", {duration: bannerSpeed, alpha: 0}, "stepNumber12")
 
+ScrollTrigger.create({
+  trigger: "#steps-1-2",
+  start: "top 50%",
+  // end: "bottom 60%",
+  animation: careSteps12TimeLine,
+  toggleActions: "play none none none",
+  // markers: true,
+  // scrub: 1,
+  id: "steps1-2"
+});
 
+var careSteps34TimeLine = gsap.timeline();
 
+careSteps34TimeLine.from("#steps-3-4 .step-numbers", {duration: bannerSpeed, alpha: 0}, "stepNumber34")
 
+ScrollTrigger.create({
+  trigger: "#steps-3-4",
+  start: "top 50%",
+  // end: "bottom 60%",
+  animation: careSteps34TimeLine,
+  toggleActions: "play none none none",
+  // markers: true,
+  // scrub: 1,
+  id: "steps3-4"
+});
 
+var careSteps56TimeLine = gsap.timeline();
 
+careSteps56TimeLine.from("#steps-5-6 .step-numbers", {duration: bannerSpeed, alpha: 0}, "stepNumber56")
 
+ScrollTrigger.create({
+  trigger: "#steps-5-6",
+  start: "top 50%",
+  // end: "bottom 60%",
+  animation: careSteps56TimeLine,
+  toggleActions: "play none none none",
+  // markers: true,
+  // scrub: 1,
+  id: "steps-5-6"
+});
+
+var careSteps78TimeLine = gsap.timeline();
+
+careSteps78TimeLine.from("#steps-7-8 .step-numbers", {duration: bannerSpeed, alpha: 0}, "stepNumber78")
+
+ScrollTrigger.create({
+  trigger: "#steps-7-8",
+  start: "top 50%",
+  // end: "bottom 60%",
+  animation: careSteps78TimeLine,
+  toggleActions: "play none none none",
+  // markers: true,
+  // scrub: 1,
+  id: "steps-7-8"
+});
 
 
 
