@@ -120,6 +120,33 @@ ScrollTrigger.create({
     Care
 ============= */
 
+console.log("page loads");
+
+var careTitleTimeLine = gsap.timeline();
+var bannerSpeed = 1.5;
+
+careTitleTimeLine.from("#section1-header h1", {duration:bannerSpeed, xPercent: 40, alpha: 0}, "pageLoads")
+                 .from("#section1-header h2", {duration:bannerSpeed, yPercent: -100, alpha: 0}, "pageLoads")
+                 .from("#arrow-1", {duration:1, rotation: 270, alpha: 0}, "arrow")
+
+careTitleTimeLine.play();
+
+
+var careSection1TimeLine = gsap.timeline();
+
+careSection1TimeLine.from("#para-1", {duration: bannerSpeed, alpha: 0, xPercent:-50}, "para1")
+
+ScrollTrigger.create({
+  trigger: "#section-1-content",
+  start: "top 30%",
+  // end: "bottom 90%",
+  animation: careSection1TimeLine,
+  toggleActions: "resume none none none",
+  markers: true,
+  id: "care-section1"
+  // scrub: 1
+});
+
 
 
 
