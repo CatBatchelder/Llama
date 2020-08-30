@@ -122,6 +122,8 @@ ScrollTrigger.create({
 
 console.log("page loads");
 
+//banner 
+
 var careTitleTimeLine = gsap.timeline();
 var bannerSpeed = 1.5;
 
@@ -131,21 +133,57 @@ careTitleTimeLine.from("#section1-header h1", {duration:bannerSpeed, xPercent: 4
 
 careTitleTimeLine.play();
 
+//para1
+var carePara1TimeLine = gsap.timeline();
 
-var careSection1TimeLine = gsap.timeline();
-
-careSection1TimeLine.from("#para-1", {duration: bannerSpeed, alpha: 0, xPercent:-50}, "para1")
+carePara1TimeLine.from("#para-1", {duration: bannerSpeed, alpha: 0, xPercent:-50}, "para1")
 
 ScrollTrigger.create({
   trigger: "#section-1-content",
   start: "top 30%",
   // end: "bottom 90%",
-  animation: careSection1TimeLine,
+  animation: carePara1TimeLine,
   toggleActions: "resume none none none",
-  markers: true,
+  // markers: true,
+  // scrub: 1,
   id: "care-section1"
-  // scrub: 1
 });
+
+//cream llama
+var careLlama1TimeLine = gsap.timeline();
+
+careLlama1TimeLine.from("#llama-cream", {duration: bannerSpeed, alpha: 0, xPercent: 100}, "llamaCream")
+
+ScrollTrigger.create({
+  trigger: "#llama-cream",
+  start: "top 30%",
+  // end: "bottom 90%",
+  animation: careLlama1TimeLine,
+  toggleActions: "play none none none",
+  markers: true,
+  // scrub: 1,
+  id: "cream-llama"
+});
+
+
+//footsteps group1
+var careFootstepsGroup1TimeLine = gsap.timeline();
+
+careFootstepsGroup1TimeLine.from("#footstep-1", {duration: 0.75, alpha: 0}, "footstep1")
+                           .from("#footstep-2", {duration: 0.75, alpha: 0, yPercent:-50}, "footstep2")
+                           .from("#footstep-3", {duration: 0.75, alpha: 0, yPercent:-50}, "footstep3")
+
+ScrollTrigger.create({
+  trigger: "#footstep-1",
+  start: "top 30%",
+  // end: "bottom 90%",
+  animation: careFootstepsGroup1TimeLine,
+  toggleActions: "play none none none",
+  // markers: true,
+  // scrub: 1,
+  id: "care-footsteps1"
+});
+
 
 
 
