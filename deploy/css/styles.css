@@ -1476,20 +1476,16 @@ footer #footer-image {
     text-align: left; }
   #gallery div ul {
     display: grid;
-    grid-template-columns: 50% auto;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: auto 37% auto;
     grid-template-areas: "g1 g2" "g4 g4" "g6 g7";
     gap: 20px; }
     @media (min-width: 768px) {
       #gallery div ul {
         grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         grid-template-areas: "g1 g1 g2 g2 g3 g3" "g4 g4 g4 g5 g5 g5" "g6 g6 g7 g7 g8 g8"; } }
     #gallery div ul li img {
-      width: 100%;
-      height: 300px; }
-      @media (min-width: 768px) {
-        #gallery div ul li img {
-          height: auto; } }
+      width: 100%; }
     #gallery div ul li:nth-child(1) {
       grid-area: g1; }
     #gallery div ul li:nth-child(2) {
