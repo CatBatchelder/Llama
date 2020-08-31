@@ -338,6 +338,7 @@ ul {
   @media (min-width: 1200px) {
     .big-spacing {
       margin-bottom: 110px; } }
+
 .medium-spacing {
   margin-bottom: 30px; }
   @media (min-width: 768px) {
@@ -346,6 +347,7 @@ ul {
   @media (min-width: 1200px) {
     .medium-spacing {
       margin-bottom: 70px; } }
+
 .small-spacing {
   margin-bottom: 25px; }
   @media (min-width: 768px) {
@@ -354,11 +356,13 @@ ul {
   @media (min-width: 1200px) {
     .small-spacing {
       margin-bottom: 45px; } }
+
 .xs-spacing {
   margin-bottom: 10px; }
   @media (min-width: 1200px) {
     .xs-spacing {
       margin-bottom: 20px; } }
+
 .grid-container {
   display: grid;
   grid-template-areas: ". container .";
@@ -396,6 +400,7 @@ ul {
   @media (min-width: 768px) {
     .show-for-md {
       display: inline; } }
+
 /* =============
     Typography
 ============= */
@@ -424,6 +429,7 @@ p {
       font-size: 70px;
       line-height: 86px;
       margin: 70px 0px 45px 0px; } }
+
 .subheadline {
   color: #6D4E35;
   font-family: 'Abhaya Libre', serif;
@@ -441,6 +447,7 @@ p {
       font-size: 30px;
       line-height: 35px;
       margin-bottom: 70px; } }
+
 .section-title {
   color: #93BC95;
   font-family: 'Raleway', sans-serif;
@@ -452,6 +459,7 @@ p {
   @media (min-width: 1200px) {
     .section-title {
       font-size: 45px; } }
+
 .msg-title {
   color: #6D4E35;
   font-family: 'Raleway', sans-serif;
@@ -463,6 +471,7 @@ p {
   @media (min-width: 1200px) {
     .msg-title {
       font-size: 25px; } }
+
 .card-title {
   color: #6D4E35;
   font-family: 'Raleway', sans-serif;
@@ -477,6 +486,7 @@ p {
     .card-title {
       font-size: 25px;
       padding: 45px 0px 20px 0px; } }
+
 .body-text {
   color: #6D4E35;
   font-family: 'Raleway', sans-serif;
@@ -487,6 +497,7 @@ p {
     .body-text {
       font-size: 18px;
       line-height: 22px; } }
+
 .body-text-2 {
   color: #7C6B5E;
   font-family: 'Raleway', sans-serif;
@@ -497,6 +508,7 @@ p {
     .body-text-2 {
       font-size: 18px;
       line-height: 22px; } }
+
 .body-text-3 {
   color: #3E3E3E;
   font-family: 'Raleway', sans-serif;
@@ -507,6 +519,7 @@ p {
     .body-text-3 {
       font-size: 18px;
       line-height: 22px; } }
+
 /* =============
     Buttons
 ============= */
@@ -828,6 +841,7 @@ footer #footer-image {
   @media (min-width: 1200px) {
     #index > div img {
       height: 90vh; } }
+
 #index > div #introduction img {
   height: 80px;
   object-fit: contain;
@@ -841,6 +855,7 @@ footer #footer-image {
     #index > div #introduction img {
       height: 135px;
       width: 135px; } }
+
 #index > div #introduction > div h3 {
   background-color: #FCD958;
   border-radius: 20px;
@@ -849,6 +864,7 @@ footer #footer-image {
     #index > div #introduction > div h3 {
       border-radius: 33.5px;
       padding: 28px 20px; } }
+
 #index > div #introduction > div p {
   padding: 0px 20px;
   text-align: justify; }
@@ -916,6 +932,7 @@ footer #footer-image {
   @media (min-width: 1200px) {
     #index > div #personality > div #personality-intro h4 {
       font-size: 25px; } }
+
 @media (min-width: 768px) {
   #index > div #personality > div #cards-section {
     column-gap: 20px;
@@ -967,6 +984,7 @@ footer #footer-image {
     #index > div #personality > div .cards {
       border-radius: 20px;
       padding: 45px 35px; } }
+
 #care {
   padding-top: 80px; }
   #care #care-container #section-1 #section-1-container #section1-header h1 {
@@ -1179,6 +1197,7 @@ footer #footer-image {
       #care-section-3 #image {
         height: 810px;
         background-position-y: -100px; } }
+
 #care-section-4 {
   padding-bottom: 70px; }
   @media (min-width: 768px) {
@@ -1470,6 +1489,7 @@ footer #footer-image {
         #care-section-4 #steps-7-8 #step-7-container #step-7 p {
           margin-top: -5vh;
           margin-left: 8vw; } }
+
 #gallery {
   padding-top: 100px; }
   #gallery div h6 {
@@ -1505,6 +1525,7 @@ footer #footer-image {
     @media (min-width: 768px) {
       #gallery div ul li:nth-child(8) {
         grid-area: g8; } }
+
 #fred {
   overflow: hidden; }
   @media (min-width: 1200px) {
@@ -1548,6 +1569,7 @@ footer #footer-image {
     @media (min-width: 1200px) {
       #fred #container {
         height: 635px; } }
+
 #map-page {
   display: grid;
   grid-template-columns: 2.5% 60% 35% 2.5%;
