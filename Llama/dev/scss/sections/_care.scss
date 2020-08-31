@@ -1,0 +1,796 @@
+#care {
+    padding-top: 80px;
+    #care-container {
+        #section-1 {
+            #section-1-container {
+                #section1-header {
+                    h1 {
+                        text-align: center;
+
+                        @include md {
+                            text-align: left;
+                        }
+                    }
+
+                    h2 {}
+
+                    img {
+                        // height: 100px;
+                        display: none;
+
+                        @include md {
+                            display: block;
+                            margin-top: -7vh;
+                            margin-left: 33vw;
+                        }
+
+                        @include lg {
+                            margin-top: -12vh;
+                            margin-left: 26vw;
+                        }
+                    }
+                }
+
+                #section-1-content {
+                    .care-para {
+                        @include md {
+                            width: 250px;
+                        }
+
+                        @include lg {
+                            width: 300px;
+                        }
+
+                        p {
+                            text-align: justify;
+                        }
+                    }
+
+                    #para-1 {
+                        @include md {
+                            // margin-top: -30px;
+                            margin-top: -3vh;
+                        }
+
+                        @include lg {
+                            margin-left: 3vw;
+                        }
+
+                    }
+
+                    #llama-1 {
+                        padding-top: 30px;
+                        margin-left: 30px;
+
+                        @include md {
+                            margin-left: 52vw;
+                            margin-top: -18vh;
+                        }
+
+                        @include lg {
+                            margin-left: 52vw;
+                            margin-top: -25vh;
+                        }
+
+                        #llama-cream {
+                            width: 300px;
+
+                            @include md {
+                                width: 350px;
+                            }
+
+                            @include lg {
+                                width: 475px;
+                            }
+                        }
+                    }
+
+                    #footsteps-group-1 {
+                        padding-bottom: 30px;
+                        padding-top: 30px;
+
+                        @include md {
+                            margin-top: -28vh;
+                            margin-left: 3vw;
+                        }
+
+                        @include lg {
+                            margin-top: -50vh;
+                            margin-left: 3vw;
+                        }
+
+                        #footstep-1 {
+                            margin-left: 100px;
+                            // margin-top: 30px;
+
+                            @include md {
+                                margin-left: 12vw;
+                            }
+                        }
+
+                        #footstep-2 {
+                            margin-left: 30px;
+                            padding-top: 30px;
+
+                            @include md {
+                                margin-left: 3vw;
+                                margin-top: 3vh;
+                            }
+                        }
+
+                        #footstep-3 {
+                            margin-left: 250px;
+                            margin-top: 20px;
+
+                            @include md {
+                                margin-left: -12vw;
+                                margin-bottom: -5vh;
+                            }
+                        }
+                    }
+
+                    #para-2 {
+                        @include md {
+                            margin-left: 23vw;
+                            margin-top: 3vh;
+                        }
+                    }
+
+                    #footsteps-group-2 {
+                        padding-bottom: 30px;
+                        padding-top: 30px;
+
+                        #footstep-4 {
+                            // margin-top: 30px;
+                            margin-left: 250px;
+
+                            @include md {
+                                margin-left: 37vw;
+                                margin-top: 3vh;
+                            }
+                        }
+                    }
+
+                    #para-3 {
+                        @include md {
+                            margin-top: 2vh;
+                            margin-left: 13vw;
+                        }
+                    }
+
+                    #footsteps-group-3 {
+                        padding-bottom: 30px;
+                        padding-top: 30px;
+
+                        #footstep-5 {
+                            // margin-top: 30px;
+                            margin-left: 150px;
+
+                            @include md {
+                                margin-left: 42vw;
+                            }
+                        }
+
+                        #footstep-6 {
+                            margin-left: 20px;
+
+                            @include md {
+                                margin-left: -8vw;
+                                margin-bottom: -8vh;
+                            }
+                        }
+                    }
+
+                    #para-4 {
+                        @include md {
+                            margin-left: 42vw;
+                            margin-top: 7vh;
+                        }
+                    }
+
+                    #footsteps-group-4 {
+                        padding-bottom: 30px;
+                        padding-top: 30px;
+
+                        #footstep-7 {
+                            // margin-top: 30px;
+                            margin-left: 150px;
+
+                            @include md {
+                                margin-left: 55vw;
+                                margin-top: 3vh;
+                            }
+                        }
+                    }
+
+                    #llama-2 {
+                        margin-left: 80px;
+                        margin-top: -70px;
+                        padding-bottom: 30px;
+
+                        @include md {
+                            margin-left: 0;
+                            margin-top: -35vh;
+                        }
+
+                        #llama-brown {
+                            width: 250px;
+
+                            @include md {
+                                width: 300px;
+                            }
+
+                            @include lg {
+                                width: 400px;
+                            }
+                        }
+                    }
+
+                    #para-5 {
+                        padding-bottom: 40px;
+
+                        @include md {
+                            margin-left: 33vw;
+                            margin-top: -2vh;
+                            padding-bottom: 70px;
+                        }
+
+                        @include lg {
+                            margin-left: 33vw;
+                            margin-top: -22vh;
+                            padding-bottom: 70px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        #section-2 {
+            @include lg {
+                padding-top: 100px;
+            }
+            #section-2-container {
+                // @include md {
+                //     display: grid;
+                //     grid-template-columns: 40% auto;
+                //     grid-template-areas: "llama bubble";
+                // }
+
+                #section-2-llama {
+                    @include md {
+                        display: grid;
+                        grid-template-columns: 40% auto;
+                        grid-template-areas: "llama bubble";
+                    }
+
+                    #llama-winky-face {
+                        @include md {
+                            grid-area: llama;
+                        }
+
+                        img {
+                            padding-top: 30px;
+                            padding-bottom: 20px;
+                            width: 250px;
+                            display: block;
+                            margin: auto;
+
+                            @include md {
+                                width: 275px;
+                                margin-top: 3vh;
+                                margin-left: 0vw;
+                            }
+
+                            @include lg {
+                                width: 330px;
+                                margin-top: 2vh;
+                                margin-left: 7vw;
+                            }
+                        }
+                    }
+
+                    #llama-text-bubble {
+                        @include md {
+                            grid-area: bubble;
+                        }
+
+                        @include lg {
+                            padding-left: 70px;
+                        }
+
+                        .bubble {
+                            background-color: $yellow;
+                            padding: 20px;
+                            border-radius: 20px;
+                        }
+
+                        #p1 {
+                            padding: 30px 0;
+                        }
+
+                        #p12 {
+                            padding: 30px 0;
+                        }
+
+                        #p3 {
+                            padding: 30px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#care-section-3 {
+    padding: 30px 0;
+
+    #image {
+        background-image: url('../img/care/care.jpg');
+        height: 400px;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+
+        @include md {
+            height: 600px;
+        }
+
+        @include lg {
+            height: 810px;
+            background-position-y: -100px;
+        }
+    }
+
+}
+
+#care-section-4 {
+    padding-bottom: 70px;
+
+    @include md {
+        padding-bottom: 100px;
+    }
+
+    @include lg {
+        padding-bottom: 120px;
+    }
+    
+    #section-4-title {
+        display: grid;
+        grid-template-columns: 15px auto 15px;
+        grid-template-areas: ". text .";
+        padding-bottom: 20px;
+
+        h3 {
+            grid-area: text;
+        }
+
+        @include md {
+            grid-template-columns: 25px auto 25px;
+        }
+    }
+
+    .step-numbers {
+        opacity: 0.2;
+        font-size: rem-calc(100);
+        font-family: 'Raleway', sans-serif;
+        font-weight:700;
+        color: $dark-brown;
+
+        @include md {
+            font-size: rem-calc(150);
+        }
+    }
+
+    .fill-left {
+        background-color: $cream;
+        border-radius: 25px;
+        padding: 20px;
+
+        @include md {
+            border-radius: 0 30px 30px 0;
+        }
+    }
+
+    .fill-right {
+        background-color: $cream;
+        border-radius: 25px;
+        padding: 20px;
+
+        @include md {
+            border-radius: 30px 0 0 30px;
+        }
+    }
+
+    .border-left {
+        border: 3px $dark-pink solid;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .border-right {
+        border: 3px $dark-pink solid;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .step-para {
+        @include md {
+            width: 200px;
+        }
+
+        @include lg {
+            width: 240px;
+        }
+    }
+
+    #steps-1-2 {
+
+        @include md {
+            display: grid;
+            grid-template-columns: 40% 40% auto;
+            grid-template-areas: "step1 step2 .";
+        }
+
+        #step-1-container {
+            padding: 20px 15px;
+
+            @include md {
+                padding: 30px 0;
+                grid-area: step1;
+            }
+
+            #step-1 {
+                @include md {
+                    padding-bottom: 3vh;
+                }
+                h1 {
+                    margin-top: -40px;
+                    margin-left: 30px;
+
+                    // @include md {
+                    //     margin-top: -40px;
+                    //     margin-left: 30px;
+                    // }
+                }
+
+                p {
+                    margin-top: -50px;
+
+                    @include md {
+                        margin-top: -7vh;
+                        margin-left: 8vw;
+                    }
+                }
+            }
+        }
+
+        #step-2-container {
+            padding: 20px 15px;
+
+            @include md {
+                padding: 30px 20px;
+                grid-area: step2;
+            }
+
+            #step-2 {
+                @include md {
+                    padding: 20px 30px 6vh 30px;
+                }
+
+                @include lg {
+                    padding: 20px 30px 13vh 30px;
+                }
+
+                h1 {
+                    margin-top: 40px;
+                    margin-left: 80px;
+
+                    @include md {
+                        margin-top: 10vh;
+                        margin-left: 10vw;
+                    }
+
+                    @include lg {
+                        // margin-top: 10vh;
+                        margin-left: 15vw;
+                    }
+                }
+
+                p {
+                    margin-top: -150px;
+
+                    @include md {
+                        margin-top: -22vh;
+                        margin-left: 4vw;
+                    }
+
+                    @include lg {
+                        margin-top: -30vh;
+                        margin-left: 4vw;
+                    }
+                }
+            }
+        }
+
+    }
+
+    #steps-3-4 {
+
+        @include md {
+            display: grid;
+            grid-template-columns: auto 40% 40%;
+            grid-template-areas: ". step3 step4";
+        }
+
+        #step-4-container {
+            padding: 20px 15px;
+
+            @include md {
+                grid-area: step4;
+                padding: 30px 0;
+            }
+
+            #step-4 {
+                @include md {
+                    padding-bottom: 3vh;
+                }
+
+                h1 {
+                    margin-top: -40px;
+                    margin-left: 30px;
+
+                    @include lg {
+                        margin-left: 5vw;
+                    }
+                }
+
+                p {
+                    margin-top: -50px;
+
+                    @include md {
+                        margin-top: -7vh;
+                        margin-left: 8vw;
+                    }
+                }
+            }
+        }
+
+        #step-3-container {
+            padding: 20px 15px;
+
+            @include md {
+                grid-area: step3;
+                padding: 30px 20px;
+            }
+
+            #step-3 {
+                padding-bottom: 30px;
+
+                @include md {
+                    padding: 20px 30px 13vh 30px;
+                }
+
+                @include lg {
+                    padding: 20px 30px 17vh 30px;
+                }
+
+                h1 {
+                    margin-top: -10px;
+                    margin-left: 80px;
+
+                    @include md {
+                        margin-top: 10vh;
+                        margin-left: 15vw;
+                    }
+
+                    @include lg {
+                        // margin-top: 10vh;
+                        margin-left: 5vw;
+                        // padding-top: -50px;
+                    }
+                }
+
+                p {
+                    margin-top: -110px;
+
+                    @include md {
+                        margin-top: -17vh;
+                        margin-left: 4vw;
+                    }
+
+                    @include lg {
+                        // margin-top: -17vh;
+                        margin-left: 10vw;
+                    }
+                }
+            }
+        }
+
+    }
+
+    #steps-5-6 {
+        @include md {
+            display: grid;
+            grid-template-columns: 40% 40% auto;
+            grid-template-areas: "step5 step6 .";
+        }
+        #step-5-container {
+            padding: 20px 15px;
+
+            @include md {
+                grid-area: step5;
+                padding: 30px 0;
+            }
+
+            #step-5 {
+                @include md {
+                    padding-bottom: 40px;
+                }
+
+                h1 {
+                    margin-top: -40px;
+                    margin-left: 30px;
+
+                    @include lg {
+                        margin-left: 5vw;
+                    }
+                }
+
+                p {
+                    margin-top: -50px;
+
+                    @include md {
+                        margin-top: -5vh;
+                        margin-left: 8vw;
+                    }
+                }
+            }
+        }
+
+        #step-6-container {
+            padding: 20px 15px;
+
+            @include md {
+                padding: 30px 20px;
+                grid-area: step6;
+            }
+
+            #step-6 {
+                @include md {
+                    padding: 20px 5vh 12vh 35px;
+                }
+
+                @include lg {
+                    padding: 20px 5vh 24vh 35px;
+                }
+
+                h1 {
+                    margin-top: 20px;
+                    margin-left: 80px;
+
+                    @include md {
+                        margin-top: 14vh;
+                        margin-left: 2vw;
+                    }
+
+                    @include lg {
+                        margin-top: 14vh;
+                        margin-left: 17vw;
+                    }
+                }
+
+                p {
+                    margin-top: -130px;
+
+                    @include md {
+                        margin-top: -21vh;
+                        margin-left: 4vw;
+                    }
+
+                    @include lg {
+                        margin-top: -26vh;
+                        margin-left: 4vw;
+                    }
+                }
+            }
+        }
+    }
+
+    #steps-7-8 {
+        @include md {
+            display: grid;
+            grid-template-columns: auto 40% 40%;
+            grid-template-areas: ". step7 step8";
+        }
+
+        #step-8-container {
+            padding: 20px 15px;
+
+            @include md {
+                grid-area: step8;
+                padding: 30px 0;
+            }
+
+            #step-8 {
+                padding-top: 30px;
+
+                @include md {
+                    padding-bottom: 7vh;
+                }
+
+                @include lg {
+                    padding-bottom: 10vh;
+                }
+
+                h1 {
+                    margin-top: -40px;
+                    margin-left: 30px;
+
+                    @include md {
+                        margin-top: 0vh;
+                        // margin-left: 8vw;
+                    }
+
+                    @include lg {
+                        // margin-top: 0vh;
+                        margin-left: 5vw;
+                    }
+                }
+
+                p {
+                    margin-top: -50px;
+                    @include md {
+                        margin-top: -7vh;
+                        margin-left: 8vw;
+                    }
+                }
+            }
+        }
+
+        #step-7-container {
+            padding: 20px 15px;
+
+            @include md {
+                grid-area: step7;
+                padding: 30px 20px;
+            }
+
+            #step-7 {
+                @include md {
+                    padding: 20px 40px 3vh 50px;
+                }
+
+                h1 {
+                    margin-top: -30px;
+                    margin-left: 30px;
+
+                    @include md {
+                        margin-top: -3vh;
+                        margin-left: -1vw;
+                    }
+                    @include lg {
+                        // margin-top: -3vh;
+                        margin-left: 5vw;
+                    }
+                }
+
+                p {
+                    margin-top: -50px;
+
+                    @include md {
+                        margin-top: -5vh;
+                        margin-left:2vw;
+                    }
+
+                    @include lg {
+                        margin-top: -5vh;
+                        margin-left: 8vw;
+                    }
+                }
+            }
+        }
+
+    }
+}

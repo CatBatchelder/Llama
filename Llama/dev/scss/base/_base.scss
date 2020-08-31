@@ -1,0 +1,120 @@
+/* =============
+    Base
+============= */
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+        list-style: none;
+    }
+}
+
+.spacing-for-header {
+    margin-top: 80px;
+}
+
+
+.big-spacing {
+    margin-bottom: 70px;
+
+    @include md {
+        margin-bottom: 90px;
+    }
+
+    @include lg {
+        margin-bottom: 110px;
+    }
+}
+
+.medium-spacing {
+    margin-bottom: 30px;
+
+    @include md {
+        margin-bottom: 50px;
+    }
+
+    @include lg {
+        margin-bottom: 70px;
+    }
+}
+
+.small-spacing {
+    margin-bottom: 25px;
+
+    @include md {
+        margin-bottom: 30px;
+    }
+
+    @include lg {
+        margin-bottom: 45px;
+    }
+}
+
+.xs-spacing {
+    margin-bottom: 10px;
+
+    @include lg {
+        margin-bottom: 20px;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: ". container .";
+    grid-template-columns: 15px auto 15px;
+
+    @include md {
+        grid-template-columns: 25px auto 25px;
+    }
+
+    @include lg {
+        grid-template-columns: 45px auto 45px;
+    }
+
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+
+    }
+
+    >div {
+        grid-area: container;
+    }
+}
+
+.xl{
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+
+    }
+
+    >div {
+        grid-area: container;
+    }
+}
+
+.photo-xl-grid-container {
+
+    @include xl {
+        display: grid;
+        grid-template-areas: ". container .";
+        grid-template-columns: auto 1440px auto;
+    }
+
+    >div {
+        grid-area: container;
+    }
+}
+
+.show-for-md {
+    display: none;
+
+    @include md {
+        display: inline;
+    }
+}

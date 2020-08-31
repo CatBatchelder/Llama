@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="125px" height="149px" viewBox="0 0 125 149" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow</title>
+    <g id="home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="Tablet" transform="translate(-228.000000, -313.000000)" stroke="#F49D11" stroke-width="4">
+            <g id="arrow" transform="translate(290.500000, 387.500000) scale(-1, -1) rotate(36.000000) translate(-290.500000, -387.500000) translate(271.000000, 314.000000)">
+                <path d="M6.69987349,143.124027 C44.8926472,124.10776 37.0606569,54.8766106 11.7274782,67.2556564 C-13.6074199,79.6355573 9.23344928,123.28078 30.0118657,98.4773629 C50.7911418,73.6730905 30.0118657,14.97033 6.69987349,0.124027057" id="Stroke-1"></path>
+                <polyline id="Stroke-3" stroke-linejoin="round" points="5.43875628 132.641217 1.35275353 146.641217 18.3527535 146.010753"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

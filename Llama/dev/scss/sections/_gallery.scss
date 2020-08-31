@@ -1,0 +1,172 @@
+#gallery {
+    padding-top: 100px;
+
+    div {
+        h1 {}
+
+        h6 {
+            text-align: left;
+        }
+
+        ul {
+            display: grid;
+            //grid-template-columns: 50% auto;
+            grid-template-rows: auto 37% auto;
+            grid-template-areas:
+                "g1 g2"
+                "g4 g4"
+                "g6 g7";
+            gap: 20px;
+
+            @include md {
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                grid-template-areas:
+                    "g1 g1 g2 g2 g3 g3"
+                    "g4 g4 g4 g5 g5 g5"
+                    "g6 g6 g7 g7 g8 g8";
+            }
+
+            li {
+
+                img {
+                    //object-fit: cover;
+                    width: 100%;
+                    //height: 200px;
+                    //height: 300px;
+
+                    // @include md{
+                    //     height: auto;
+                    // }
+
+
+                }
+            }
+
+            li:nth-child(1) {
+                grid-area: g1;
+
+            }
+
+            li:nth-child(2) {
+                grid-area: g2;
+            }
+
+            li:nth-child(3) {
+                @include md {
+                    grid-area: g3;
+                }
+            }
+
+            li:nth-child(4) {
+                grid-area: g4;
+            }
+
+            li:nth-child(5) {
+                @include md {
+                    grid-area: g5;
+                }
+            }
+
+            li:nth-child(6) {
+                grid-area: g6;
+            }
+
+            li:nth-child(7) {
+                grid-area: g7;
+            }
+
+            li:nth-child(8) {
+                @include md {
+                    grid-area: g8;
+                }
+            }
+        }
+    }
+}
+
+
+
+#fred {
+
+    overflow: hidden;
+
+    @include lg {
+        display: grid;
+        grid-template-areas: ". container .";
+        grid-template-columns: auto 800px auto;
+
+    }
+
+    div {
+        overflow: hidden;
+
+        @include lg {
+            grid-area: container;
+        }
+
+        h6 {
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+
+        }
+    }
+
+
+    #tool {
+        font-size: 16px;
+        font-weight: 400;
+        border: none;
+        margin-bottom: 20px;
+        color: $dark-gray;
+        background-color: $light-blue;
+        border-radius: 36.5px;
+        // width: 120px;
+        // height: 30px;
+        //border: 1px solid #999;
+        font-family: 'Raleway', sans-serif;
+        padding: 13px 30px;
+        cursor: pointer;
+
+        @include lg {
+            font-size: 20px;
+            padding: 16px 40px;
+        }
+    }
+
+
+
+
+
+    #container {
+        background-image: url("../img/gallery/fred-2.jpg");
+        background-position: center;
+        height: 244px;
+        // width: 300px;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+        @include md {
+            height: 469px;
+            // width: 577px;
+        }
+
+        @include lg {
+            height: 635px;
+            // width: 780px;
+        }
+
+        // .konvajs-content{
+        //     width: 400px;
+        //     height: 400px;
+
+        //     canvas{
+        //         width: 400px;
+        //         height: 400px;
+        //     }
+        // }
+    }
+}
