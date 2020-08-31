@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "884F13C4-3D36-4FA6-920F-86D3277CCDFD"
+		"uuidString": "70BADBF0-E11C-4D1B-AA3C-0C64A7D2BF21"
 		}
 	],
 "creatorBuild": "26667",
@@ -384,7 +384,7 @@
 		"oAP": "\/deploy\/img\/logo-llama.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 3758088159,
+		"plM": 52780316221407,
 		"prP": 0
 		},
 	"\/deploy\/img\/main-nav\/arrow-lg.svg": {
@@ -451,11 +451,18 @@
 		"oAP": "\/deploy\/map.html",
 		"oF": 0
 		},
+	"\/deploy\/planning.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/deploy\/planning.html",
+		"oF": 0
+		},
 	"\/dev\/care.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/deploy\/care.html",
+		"oAP": "\/deploy\/contact.html",
 		"oF": 2
 		},
 	"\/dev\/content\/care-content.kit": {
@@ -490,7 +497,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/deploy\/gallery.html",
+		"oAP": "\/deploy\/following.html",
 		"oF": 2
 		},
 	"\/dev\/global\/footer.kit": {
@@ -519,7 +526,7 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/dev\/global\/main-nav.html",
-		"oF": 1
+		"oF": 0
 		},
 	"\/dev\/global\/scripts.kit": {
 		"cB": 0,
@@ -535,12 +542,12 @@
 		"oAP": "\/deploy\/index.html",
 		"oF": 2
 		},
-	"\/dev\/js\/konva.js": {
+	"\/dev\/js\/Konva.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/dev\/js\/konva-min.js",
+		"oAP": "\/dev\/js\/Konva-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -551,7 +558,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/dev\/js\/main-nav\/burger-click-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -561,7 +568,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/dev\/js\/main-nav\/main-nav-click-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -571,7 +578,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/dev\/js\/main-nav\/nav-global-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -609,7 +616,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/deploy\/map.html",
+		"oAP": "\/deploy\/planning.html",
 		"oF": 2
 		},
 	"\/dev\/scss\/base\/_base.scss": {
@@ -806,24 +813,6 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/README.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		}
 	},
 "hooks": [
@@ -831,11 +820,11 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 619554119,
+	"creationDate": 614697020,
 	"displayValue": "Llama",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-pale",
-	"iconImageWasSetByUser": 1
+	"iconImageName": "brackets-red",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1238,7 +1227,7 @@
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
-			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false, 'enforceForClassMembers': true}"
 			},
 		"array-bracket-newline": {
 			"active": 0,
@@ -1286,7 +1275,7 @@
 			},
 		"camelcase": {
 			"active": 0,
-			"optionString": "{'properties': 'always'}"
+			"optionString": "{'properties': 'always', 'ignoreDestructuring': false, 'ignoreImports': false}"
 			},
 		"capitalized-comments": {
 			"active": 0,
@@ -1314,7 +1303,7 @@
 			},
 		"computed-property-spacing": {
 			"active": 0,
-			"optionString": "'never'"
+			"optionString": "'never', {'enforceForClassMembers': true}"
 			},
 		"consistent-return": {
 			"active": 0,
@@ -1362,11 +1351,11 @@
 			},
 		"func-name-matching": {
 			"active": 0,
-			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			"optionString": "'always', {'considerPropertyDescriptor': false, 'includeCommonJSModuleExports': false}"
 			},
 		"func-names": {
 			"active": 0,
-			"optionString": "'always'"
+			"optionString": "'always', {'generators': 'always'}"
 			},
 		"func-style": {
 			"active": 0,
@@ -1406,7 +1395,7 @@
 			},
 		"id-match": {
 			"active": 0,
-			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true, 'ignoreDestructuring': false}"
 			},
 		"implicit-arrow-linebreak": {
 			"active": 0,
@@ -1542,7 +1531,7 @@
 			},
 		"no-confusing-arrow": {
 			"active": 0,
-			"optionString": "{'allowParens': false}"
+			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
 			"active": 0,
@@ -1642,7 +1631,7 @@
 			},
 		"no-extra-parens": {
 			"active": 0,
-			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false, 'enforceForSequenceExpressions': false, 'enforceForNewInMemberExpressions': false}"
 			},
 		"no-extra-semi": {
 			"active": 1,
@@ -1866,7 +1855,7 @@
 			},
 		"no-self-assign": {
 			"active": 1,
-			"optionString": "{'props': false}"
+			"optionString": "{'props': true}"
 			},
 		"no-self-compare": {
 			"active": 0,
@@ -1930,7 +1919,7 @@
 			},
 		"no-underscore-dangle": {
 			"active": 0,
-			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false}"
 			},
 		"no-unexpected-multiline": {
 			"active": 1,
@@ -2026,7 +2015,7 @@
 			},
 		"object-curly-newline": {
 			"active": 0,
-			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			"optionString": "{'ObjectExpression': {'multiline': true, 'consistent': true}, 'ObjectPattern': {'multiline': true, 'consistent': true}}"
 			},
 		"object-curly-spacing": {
 			"active": 0,
@@ -2142,7 +2131,7 @@
 			},
 		"sort-keys": {
 			"active": 0,
-			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false, 'minKeys': 2}"
 			},
 		"sort-vars": {
 			"active": 0,
@@ -2233,7 +2222,7 @@
 	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "gsap,ScrollTrigger,Konva, hideShowMainNav",
+	"jsCheckerReservedNamesString": "tns, ScrollTrigger, gsap, hideShowMainNav, Konva, getElementById",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
@@ -2792,7 +2781,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"pluginMask": 3758088159
+		"pluginMask": 52780316221407
 		},
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
@@ -2859,7 +2848,7 @@
 			"flagValue": -1
 			},
 		"dead_code": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"drop_console": {
@@ -2879,7 +2868,7 @@
 			"flagValue": -1
 			},
 		"hoist_funs": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"hoist_vars": {
@@ -2907,7 +2896,7 @@
 			"flagValue": -1
 			},
 		"keep_fargs": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"keep_fnames": {
@@ -2975,7 +2964,7 @@
 			"flagValue": -1
 			},
 		"unused": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"warnings": {
@@ -2987,7 +2976,7 @@
 			"flagValue": 80
 			}
 		},
-	"uglifyReservedNamesString": "$",
+	"uglifyReservedNamesString": "$,exports,require",
 	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "3"

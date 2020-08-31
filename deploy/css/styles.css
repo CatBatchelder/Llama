@@ -566,8 +566,8 @@ textarea {
     Navigation
 ============= */
 #main-nav {
+  display: none;
   background-color: #F2CA9A;
-  display: none !important;
   place-items: center;
   position: fixed;
   top: 0;
@@ -1572,24 +1572,25 @@ footer #footer-image {
 
 #map-page {
   display: grid;
-  grid-template-columns: 2.5% 60% 35% 2.5%;
-  grid-template-areas: ". a b .";
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: "a b";
   margin-bottom: 5%; }
   #map-page #a {
-    grid-area: a; }
+    grid-area: a;
+    margin-left: 10%; }
     #map-page #a #map {
       width: 100%;
-      height: 450px;
+      height: 600px;
       background-color: #fff; }
       @media (min-width: 768px) {
         #map-page #a #map {
-          height: 500px; } }
+          height: 650px; } }
       @media (min-width: 1200px) {
         #map-page #a #map {
-          height: 600px; } }
+          height: 700px; } }
       @media (min-width: 1440px) {
         #map-page #a #map {
-          height: 700px; } }
+          height: 750px; } }
     #map-page #a #button {
       display: inline-block;
       font: Raleway;
@@ -1612,7 +1613,7 @@ footer #footer-image {
   #map-page #b {
     grid-area: b;
     margin-top: 65vh;
-    margin-left: 3%; }
+    padding: 7%; }
     #map-page #b img {
       width: 200px; }
       @media (min-width: 1200px) {

@@ -1,22 +1,23 @@
 #map-page{
     display: grid;
-    grid-template-columns: 2.5% 60% 35% 2.5%;
-    grid-template-areas: ". a b .";
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "a b";
+
     #a{
         grid-area: a;
 
         #map{
             width: 100%;
-            height: 450px;
+            height: 600px;
             background-color:$white;
             @include md{
-                height: 500px;
+                height: 650px;
             }
             @include lg{
-                height: 600px;
+                height: 700px;
             }
             @include xl{
-                height: 700px;
+                height: 750px;
             }
         }
         #button {
@@ -37,11 +38,12 @@
           }
         #button:hover {background-color: $dark-blue}
         #button:active {color:$white;}
+        margin-left: 10%;
     }
     #b{
         grid-area: b;
         margin-top: 65vh;
-        margin-left: 3%;
+        padding: 7%;
         img{
             width: 200px;
             @include lg{

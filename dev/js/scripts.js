@@ -6,5 +6,8 @@
 // @codekit-prepend "main-nav/main-nav-click.js";
 
 $( document ).ready(function() {
-
+    (function() {
+        var x = document.getElementById("main-nav");
+        x.style.display = "none";
+  })();
 });

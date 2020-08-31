@@ -2,11 +2,8 @@
     Navigation
 ============= */
 #main-nav {
-
+    display: none;
     background-color: $light-orange;
-
-    display: none !important;
-
     place-items: center;
     position: fixed;
     top: 0;
