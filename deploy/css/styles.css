@@ -554,7 +554,6 @@ textarea {
 ============= */
 #main-nav {
   background-color: #F2CA9A;
-  display: none;
   place-items: center;
   position: fixed;
   top: 0;
@@ -566,12 +565,22 @@ textarea {
   padding-top: 20%;
   z-index: 999;
   padding-top: 35%; }
+  #main-nav .hide-nav {
+    display: none; }
+  #main-nav .show-nav {
+    display: block !important; }
   @media (min-width: 768px) {
     #main-nav {
       padding-top: 25%; } }
   @media (min-width: 1200px) {
     #main-nav {
       padding-top: 15%; } }
+  @media (min-width: 1440px) {
+    #main-nav {
+      display: grid;
+      grid-template-areas: ". grid .";
+      grid-template-columns: auto 1200px auto;
+      padding-top: 0px; } }
   @media (min-width: 768px) {
     #main-nav #nav-container {
       display: grid;
@@ -580,19 +589,23 @@ textarea {
   @media (min-width: 1200px) {
     #main-nav #nav-container {
       grid-template-areas: "menu llama"; } }
+  @media (min-width: 1440px) {
+    #main-nav #nav-container {
+      grid-area: grid; } }
   #main-nav #nav-container #llama-illustration {
     display: none; }
     @media (min-width: 768px) {
       #main-nav #nav-container #llama-illustration {
         display: grid;
         grid-area: llama;
+        padding-left: 60px;
         margin-top: 20vh; } }
     #main-nav #nav-container #llama-illustration #llama #llama-lg {
       display: none; }
       @media (min-width: 1200px) {
         #main-nav #nav-container #llama-illustration #llama #llama-lg {
           display: grid;
-          width: 330px;
+          width: 280px;
           margin-bottom: -20vh; } }
     @media (min-width: 768px) {
       #main-nav #nav-container #llama-illustration #llama #llama-md {
@@ -617,18 +630,18 @@ textarea {
       #main-nav #nav-container #llama-illustration #arrow #arrow-md {
         display: none; } }
     #main-nav #nav-container #llama-illustration #text-bubble {
-      margin-top: -13vh; }
+      margin-top: -20vh; }
       @media (min-width: 1200px) {
         #main-nav #nav-container #llama-illustration #text-bubble {
-          margin-top: -48vh; } }
-      @media (min-width: 768px) {
-        #main-nav #nav-container #llama-illustration #text-bubble #bubble {
-          padding: 20px; } }
+          margin-top: -50vh; } }
       @media (min-width: 768px) {
         #main-nav #nav-container #llama-illustration #text-bubble #bubble {
           background-color: #FCD958;
           padding: 20px 40px;
           border-radius: 33px; } }
+      @media (min-width: 1200px) {
+        #main-nav #nav-container #llama-illustration #text-bubble #bubble {
+          margin-right: 160px; } }
       @media (min-width: 768px) {
         #main-nav #nav-container #llama-illustration #text-bubble #bubble p {
           color: #6D4E35;
@@ -645,7 +658,7 @@ textarea {
     #main-nav #nav-container #main-menu {
       display: grid;
       grid-area: menu;
-      margin-top: -10vh;
+      margin-top: -5vh;
       padding-left: 60px; } }
   @media (min-width: 1200px) {
     #main-nav #nav-container #main-menu {

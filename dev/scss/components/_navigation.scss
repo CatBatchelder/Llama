@@ -2,9 +2,17 @@
     Navigation
 ============= */
 #main-nav {
+    .hide-nav {
+        display: none;
+       }
+        
+       .show-nav {
+        display: block !important;
+       }
+
     background-color: $light-orange;
 
-    display: none;
+
     // display: grid;
 
     place-items: center;
@@ -25,6 +33,13 @@
     padding-top: 15%;
     }
 
+    @include xl{
+        display: grid;
+        grid-template-areas: ". grid .";
+        grid-template-columns: auto 1200px auto;
+        padding-top: 0px;
+    }
+
     #nav-container {
         @include md {
             display: grid; 
@@ -35,13 +50,19 @@
         @include lg {
             grid-template-areas: "menu llama";
         }
+
+        @include xl{
+            grid-area: grid;
+        }
+
+        
         #llama-illustration {
             display: none;
 
             @include md {
                 display: grid;
                 grid-area: llama;
-                // padding-right: 60px;
+                padding-left: 60px;
                 margin-top: 20vh;
             }
 
@@ -51,7 +72,7 @@
 
                     @include lg {
                         display: grid;
-                        width: 330px;
+                        width: 280px;
                         margin-bottom: -20vh;
                     }
                 }
@@ -95,21 +116,26 @@
             }
 
             #text-bubble {
-                margin-top: -13vh;
+                margin-top: -20vh;
                 // padding-left: 30px;
 
                 @include lg {
-                    margin-top: -48vh;
+                    margin-top: -50vh;
+
                 }
                 #bubble {
-                    @include md {
-                        padding: 20px;
-                    }
+                    // @include md {
+                    //     padding: 20px;
+                    // }
 
                     @include md {
                         background-color: $yellow;
                         padding: 20px 40px;
                         border-radius: 33px;
+                    }
+                    
+                    @include lg{
+                        margin-right: 160px;
                     }
 
                     p {
@@ -135,7 +161,7 @@
             @include md {
                 display: grid;
                 grid-area: menu;
-                margin-top: -10vh;
+                margin-top: -5vh;
                 padding-left: 60px;
             }
 
