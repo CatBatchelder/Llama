@@ -1,0 +1,60 @@
+#map-page{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "a b";
+
+    #a{
+        grid-area: a;
+
+        #map{
+            width: 100%;
+            height: 600px;
+            background-color:$white;
+            @include md{
+                height: 650px;
+            }
+            @include lg{
+                height: 700px;
+            }
+            @include xl{
+                height: 750px;
+            }
+        }
+        #button {
+            display: inline-block;
+            font: Raleway;
+            padding: 15px 25px;
+            margin-bottom: 5%;
+            font-family: 'Raleway', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            cursor: pointer;
+            text-align: center;
+            outline: none;
+            color: $black;
+            background-color: $light-blue;
+            border: none;
+            border-radius: 35px;
+          }
+        #button:hover {background-color: $dark-blue}
+        #button:active {color:$white;}
+        margin-left: 10%;
+    }
+    #b{
+        grid-area: b;
+        margin-top: 65vh;
+        padding: 7%;
+        img{
+            width: 200px;
+            @include lg{
+                margin-top: 150px;
+                width: 250px;
+            }
+        }
+
+        h3{
+            font-size: rem-calc(25);
+        }
+    }
+margin-bottom: 5%;
+}

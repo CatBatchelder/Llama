@@ -1,0 +1,30 @@
+/* =============
+    Buttons
+============= */
+.button {
+	align-content: center;
+    display: flex;
+    border-radius: 36.5;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	justify-items: center;
+	padding: 13px 30px;
+	cursor: pointer;
+	@include lg {
+		font-size: 20px;
+		padding: 16px 40px;
+	}
+	a:link,
+    a:visited {
+		background-color: $light-blue;
+		color: $dark-gray;
+		transition: 0.25s;
+    }
+    
+    a:hover,
+    a:active {
+		background-color: $dark-blue;
+		color: $white;
+	}
+}
