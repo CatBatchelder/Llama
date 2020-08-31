@@ -2,18 +2,11 @@
     Navigation
 ============= */
 #main-nav {
-    .hide-nav {
-        display: none;
-       }
-        
-       .show-nav {
-        display: block !important;
-       }
 
     background-color: $light-orange;
 
-
     // display: grid;
+    display: none !important;
 
     place-items: center;
     position: fixed;

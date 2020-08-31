@@ -328,7 +328,7 @@ ul {
     list-style: none; }
 
 .spacing-for-header {
-  margin-top: 130px; }
+  margin-top: 80px; }
 
 .big-spacing {
   margin-bottom: 70px; }
@@ -554,6 +554,7 @@ textarea {
 ============= */
 #main-nav {
   background-color: #F2CA9A;
+  display: none !important;
   place-items: center;
   position: fixed;
   top: 0;
@@ -565,10 +566,6 @@ textarea {
   padding-top: 20%;
   z-index: 999;
   padding-top: 35%; }
-  #main-nav .hide-nav {
-    display: none; }
-  #main-nav .show-nav {
-    display: block !important; }
   @media (min-width: 768px) {
     #main-nav {
       padding-top: 25%; } }
@@ -1531,6 +1528,8 @@ footer #footer-image {
   #fred #tool {
     font-size: 16px;
     font-weight: 400;
+    border: none;
+    margin-bottom: 20px;
     color: #3E3E3E;
     background-color: #7CD7F4;
     border-radius: 36.5px;
@@ -1560,13 +1559,6 @@ footer #footer-image {
   margin-bottom: 5%; }
   #map-page #a {
     grid-area: a; }
-    #map-page #a h1 {
-      color: #F1880B;
-      font-family: 'Raleway', sans-serif;
-      font-size: 55px;
-      font-weight: 500;
-      line-height: 50px;
-      padding-top: 130px; }
     #map-page #a #map {
       width: 100%;
       height: 450px;
@@ -1609,3 +1601,5 @@ footer #footer-image {
         #map-page #b img {
           margin-top: 150px;
           width: 250px; } }
+    #map-page #b h3 {
+      font-size: 1.5625rem; }
