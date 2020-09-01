@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!-- Google Font -->
+      <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+       <!-- Font Awesome -->
+       <script src="https://kit.fontawesome.com/3c79b583ac.js" crossorigin="anonymous"></script>
+  
+       <!-- Fancy Box -->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <!-- Konvajs -->
+        <script src="https://unpkg.com/konva@7.0.6/konva.min.js"></script>
+  
+      <link rel="stylesheet" href="css/styles.css">
+      <title>LlamaDrama</title>
+  </head>
+
+<body>
+
+  
+    <header class="grid-container">
+        <div>
+            <section id="logo-container">
+                <a href="index.html"><img src="img/logo-llama.svg" alt="brown fluffy llama"></a>
+            </section>
+    
+            <section id="burger-container">
+              <svg width="53" height="37" xmlns="http://www.w3.org/2000/svg" id="burger">
+                <g id="home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Mobile" transform="translate(-250 -20)">
+                    <g transform="translate(254 23)" stroke="#F49D11" stroke-linecap="round" stroke-width="7">
+                      <path id="bottom-line" d="M0 30.5h45"/>
+                      <path id="middle-line" d="M0 15.5h45"/>
+                      <path id="top-line" d="M0 .5h45"/>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </section>
+    
+        </div>
+    </header>
+    <nav id="main-nav">
+            <div id="nav-container">
+                <div id="llama-illustration">
+                    <div id='llama'>
+                        <img id="llama-lg" src="img/care/llama-mascot.svg" alt="cream fluffy llama">
+                        <img id="llama-md" src="img/main-nav/llama-mascot-nav-tablet.svg" alt="cream fluffy llama">
+                    </div> 
+                    <div id="arrow">
+                        <img id="arrow-md" src="img/main-nav/arrow-md.svg" alt="tablet size arrow">
+                        <img id="arrow-lg" src="img/main-nav/arrow-lg.svg" alt="laptop size arrow">
+                    </div>
+                    <div id="text-bubble">
+                        <div id="bubble">
+                            <p>visit these pages to get more information about me!</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="main-menu">
+                    <ul id="menu">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="care.html">caring</a></li>
+                        <li><a href="map.html">adopting</a></li>
+                        <li><a href="gallery.html">gallery</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      <section class="grid-container" id="gallery">
+                <div>
+                  <h1 class="headline">Which <br> llama are you?</h1>
+              
+                  <h6 class="subheadline">Now that you know you want a llama, <br> lets look at some cuties</h6>
+              
+                  <ul>
+                    <li><a data-fancybox="llama" href="img/gallery/g1_2.jpg"><img src="img/gallery/g1_3.jpg" alt="llama"></a></li>
+                    <li><a data-fancybox="llama" href="img/gallery/g2_2.jpg"><img src="img/gallery/g2_3.jpg" alt="llama"></a></li>
+                    <li><a data-fancybox="llama" href="img/gallery/g3_2.jpg"><img src="img/gallery/g3_3.jpg" alt="llama"
+                          class="show-for-md"></a></li>
+                    <li><a data-fancybox="llama" href="img/gallery/g4_2.jpg"><img src="img/gallery/g4_3.jpg" alt="llama"></a></li>
+                    <li><a data-fancybox="llama" href="img/gallery/g5_2.jpg"><img src="img/gallery/g5_3.jpg" alt="llama"
+                          class="show-for-md"></a></li>
+                    <li><a data-fancybox="llama" href="img/gallery/g6_2.jpg"><img src="img/gallery/g6_3.jpg" alt="llama"></a></li>
+                    <li><a data-fancybox="llama" href="img/gallery/g7_2.jpg"><img src="img/gallery/g7_3.jpg" alt="llama"></a></li>
+                    <li><a data-fancybox="llama" href="img/gallery/g8_2.jpg"><img src="img/gallery/g8_3.jpg" alt="llama"
+                          class="show-for-md"></a></li>
+                  </ul>
+                </div>
+              
+              </section>
+              
+              <section class="grid-container big-spacing" id="fred">
+                <div>
+                  <h6 class="subheadline">Draw a mustache on Fred</h6>
+              
+                  <div class="custom-select">
+                    <select id="tool">
+                      <option value="brush" id="gallery-brush">Brush</option>
+                      <option value="eraser" id="gallery-eraser">Eraser</option>
+                    </select>
+                  </div>
+              
+                  <div id="container">
+                    <!-- <img src="img/gallery/fred.jpg" alt="fred"> -->
+                  </div>
+              
+                </div>
+              </section>
+    <footer>
+                      <div id="footer-image">
+                          <section id="footer-content">
+                              <section id="footer-intro" class="xl">
+                                  <div>
+                                      <p class="body-text xs-spacing">Bring home your Llama today!</p>
+                                      <p class="body-text">Sign up for our weekly newsletter</p>
+                                  </div>
+                              </section>
+                  
+                              <section id="social-media" class="xl">
+                                  <div>
+                                      <p class="body-text xs-spacing">LlamaDrama</p>
+                                      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                      <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                                      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                  </div>
+                              </section>
+                          </section>
+                  
+                          <form action="#">
+                              <section>
+                                  <div>
+                                      <input type="text" placeholder="email@abc.com">
+                                  </div>
+                                  <div>
+                                      <button><i class="fas fa-paw"></i></button>
+                                  </div>
+                              </section>
+                          </form>
+                  
+                      </div>
+                  </footer>
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+        <!-- Greensock Scroll Trigger -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/ScrollTrigger.min.js"></script>
+    
+        <!-- Greensock -->
+    
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+    
+        <!-- Fancy Box -->
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    
+    
+        <script src="js/scripts-min.js"></script>
+    
+    
+    
+
+
+</body>
+
+</html>

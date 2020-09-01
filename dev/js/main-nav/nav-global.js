@@ -5,3 +5,10 @@ function hideShowMainNav(){
     //toggles the css display property
     $("#main-nav").toggle();
 }
+
+$( document ).ready(function() {
+    (function() {
+        var x = document.getElementById("main-nav");
+        x.style.display = "none";
+  })();
+});
